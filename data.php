@@ -108,4 +108,24 @@
       industry. Lorem psum has"
     ]
   ];
+  $doctors =[
+    [
+      "id"=>1,
+      "img"=>"./assets/face.jpg",
+      "department"=>"MBBS, MD, Eye Specialist",
+      "mbbs"=>"Teaching Hospital",
+      "speciality"=>"Urologist",
+      "website"=>"www.antonio.com",
+      "name"=>"Antonio Chekov",
+    ],
+    [
+      "id"=>2,
+      "img"=>"./assets/face.jpg",
+      "department"=>"MBBS, MD, Eye Specialist",
+      "mbbs"=>"Teaching Hospital",
+      "speciality"=>"Urologist",
+      "website"=>"www.antonio.com",
+      "name"=>"Antonio Chekov 2"
+    ]
+  ]
 ?>

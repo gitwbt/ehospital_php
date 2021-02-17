@@ -1,8 +1,8 @@
 <?php include('./config.php');?>
-<?php include('./data.php');?>
-
-<?php include(ROOT_PATH.'/includes/header.php');?>
-<section class="hero">
+<?php include(ROOT_PATH . '/includes/header.php'); ?>
+<main class="site-content">
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="hero--image">
         <img src="./assets/doctor-profile-banner.jpg" alt="asdd" />
         </div>
@@ -12,7 +12,7 @@
         <div class="hero--content-wrapper">
             <div class="hero--content">
             <h1 class="mb-1">
-               Medical Station
+               Welcome to eHospital
             </h1>
             <div class="hero--search-desc">
                 <p class="mb-4">
@@ -61,4 +61,5 @@
         <!-- </div> -->
         </div>
     </section>
-<?php include(ROOT_PATH.'/includes/footer.php');?>
+</main>
+<?php  include(ROOT_PATH .'/includes/footer.php'); ?>

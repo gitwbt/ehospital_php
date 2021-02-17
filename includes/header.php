@@ -70,8 +70,8 @@
                       >Mero Health
                     </a>
                 </li>
-                <li class="nav-item <?php echo ($page === 'doctor_profile.php') ?'active':'' ?>">
-                    <a class="nav-link" href="doctor_profile.php"
+                <li class="nav-item <?php echo ($page === 'about.php') ?'active':'' ?>">
+                    <a class="nav-link" href="about.php"
                       >About
                     </a>
                 </li>

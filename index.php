@@ -136,6 +136,20 @@
       </div>
     </div>
   </section>
+    <!-- Ad Section -->
+    <section class="ad default-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-6">
+          <img src="./assets/img/ad1.jpg" alt="">
+          </div>
+          <div class="col-lg-6 col-6">
+          <img src="./assets/img/ad1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+  </section>
+
   <!-- Consultations Section -->
   <section class="feat-consultations default-padding greybg">
     <div class="container">
@@ -308,7 +322,7 @@
         <img src="./assets/img/ad1.jpg" alt="">
         </div>
         <div class="col-lg-6 col-6">
-          
+        <img src="./assets/img/ad1.jpg" alt="">
         </div>
       </div>
     </div>
