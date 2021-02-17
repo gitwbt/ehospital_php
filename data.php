@@ -111,21 +111,48 @@
   $doctors =[
     [
       "id"=>1,
-      "img"=>"./assets/face.jpg",
+      "img"=>"./assets/img/doctors/D1_RUPESH.jpg",
       "department"=>"MBBS, MD, Eye Specialist",
       "mbbs"=>"Teaching Hospital",
       "speciality"=>"Urologist",
       "website"=>"www.antonio.com",
-      "name"=>"Antonio Chekov",
+      "name"=>"DR. RUPESH RAJ JOSHI",
     ],
     [
       "id"=>2,
-      "img"=>"./assets/face.jpg",
+      "img"=>"./assets/img/doctors/D2_PRARTHANA.jpg",
       "department"=>"MBBS, MD, Eye Specialist",
       "mbbs"=>"Teaching Hospital",
       "speciality"=>"Urologist",
       "website"=>"www.antonio.com",
-      "name"=>"Antonio Chekov 2"
+      "name"=>" DR. PRARTHANA ADHIKARI"
+    ],
+    [
+      "id"=>3,
+      "img"=>"./assets/img/doctors/D3_KIRAN.jpg",
+      "department"=>"MBBS, MD, Eye Specialist",
+      "mbbs"=>"Teaching Hospital",
+      "speciality"=>"Urologist",
+      "website"=>"www.antonio.com",
+      "name"=>" DR. KIRAN JANG KUNWAR"
+    ],
+    [
+      "id"=>4,
+      "img"=>"./assets/img/doctors/D4_SANTOSH.jpg",
+      "department"=>"MBBS, MD, Eye Specialist",
+      "mbbs"=>"Teaching Hospital",
+      "speciality"=>"Urologist",
+      "website"=>"www.antonio.com",
+      "name"=>"DR. VIVEK SHARMA"
+    ],
+    [
+      "id"=>5,
+      "img"=>"./assets/img/doctors/D5_VIVEK.jpg",
+      "department"=>"MBBS, MD, Eye Specialist",
+      "mbbs"=>"Teaching Hospital",
+      "speciality"=>"Urologist",
+      "website"=>"www.antonio.com",
+      "name"=>"DR. SHWETA BARAL"
     ]
   ]
 ?>

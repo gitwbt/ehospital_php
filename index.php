@@ -448,15 +448,18 @@
   <!-- Article Section -->
   <section class="feat-article greybg default-padding">
     <div class="container">
-      <div class="section-heading">
-        <h2 class="line-clamp-1">Latest Articles And Journals</h2>
-        <p class="line-clamp-2">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-          doloribus tempore architecto! Similique magnam vero error
-          quaerat necessitatibus fugit officia?
-        </p>
-      </div>
+    
       <div class="row">
+        <div class="col-lg-8 col-md-12 col-sm-12">
+        <div class="section-heading--left fluid">
+            <h2 class="line-clamp-1">Latest Articles And Journals</h2>
+            <p class="line-clamp-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+              doloribus tempore architecto! Similique magnam vero error
+              quaerat necessitatibus fugit officia?
+            </p>
+          </div>
+        <div class="row">
         <div class="col-12 col-lg-6 col-md-6">
           <div class="article-card">
             <div class="article-card--img">
@@ -519,6 +522,9 @@
           </div>
         </div>
       </div>
+        </div>
+      </div>
+
     </div>
   </section>
 </main>
