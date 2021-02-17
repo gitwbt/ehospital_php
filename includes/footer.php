@@ -9,9 +9,9 @@
                 </h3>
                 <div class="footer-area-content">
                   <ul>
-                    <li>+44 345 678 903</li>
-                    <li>adobexd@mail.com</li>
-                    <li>Find a Store</li>
+                    <li>+9841510060</li>
+                    <li>mail@ehospital.com.np</li>
+                    <li>Sangla-1, Tarkeshwor Municipality, Kathmandu Nepal</li>
                   </ul>
                 </div>
               </div>
@@ -19,11 +19,12 @@
             <div class="col-lg-2 col-md-6 col-12">
               <div class="footer-area">
                 <h3 class="footer-title">
-                  Customer ReService
+                Information
                 </h3>
                 <div class="footer-area-content">
                   <ul>
-                    <li>Contact Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
                     <li>Ordering & Payment</li>
                     <li>Shipping</li>
                     <li>Returns</li>
@@ -35,7 +36,7 @@
             <div class="col-lg-2 col-md-6 col-12">
               <div class="footer-area">
                 <h3 class="footer-title">
-                  Information
+                    Customer ReService 
                 </h3>
                 <div class="footer-area-content">
                   <ul>
