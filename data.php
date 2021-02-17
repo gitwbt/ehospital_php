@@ -163,7 +163,7 @@
       "mbbs"=>"MBBS,( CALCUTTA UNIVERSITY), MS (ENT & HNS)( BPKIHS)",
       "speciality"=>"CONSULTANT ENT SURGEON",
       "website"=>"www.rupesh.com.np",
-      "name"=>"DR. RUPESH RAJ JOSHI",,
+      "name"=>"DR. RUPESH RAJ JOSHI",
       "nmc"=>"2720",
       "qualification"=>"MBBS,( CALCUTTA UNIVERSITY), MS (ENT & HNS)( BPKIHS)",
       "designation"=>"CONSULTANT ENT SURGEON"
