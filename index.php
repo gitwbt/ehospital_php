@@ -212,6 +212,37 @@
                 <?php } ?>
             </div>
           </div>
+          <div class="swiper-slide">
+            <div class="row">
+                <?php foreach($consultations as $consultation){?>
+                  <?php if($consultation['id'] > 8):?>
+                    <?php if($consultation['id']<=16):?>
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <div class="consult-card">
+                            <div class="consult-card--img">
+                            <img src="<?php echo $consultation['image']; ?>" alt="" />
+                            </div>
+                            <div class="consult-card--content">
+                            <div>
+                              <div class="consult-card--title">
+                              <h3 class="line-clamp-1"><?php echo $consultation['title'] ?></h3>
+                              <span><?php echo $consultation['subtitle'] ?></span>
+                              </div> 
+                                <p class="line-clamp-3">
+                                    <?php echo $consultation['desc'] ?>
+                                </p>
+                            </div>
+                            <a href="appointment.php?id=<?php echo $consultation['id'] ?>" class="outline-btn justify-content-center">
+                                Book Appointment
+                            </a>
+                            </div>
+                        </div>
+                      </div>
+                      <?php endif;?>
+                  <?php endif;?>
+                <?php } ?>
+            </div>
+          </div>
           </div>
           <!-- Add Pagination -->
           <div class="swiper-pagination"></div>

@@ -37,8 +37,8 @@
     ],
     [
       "id"=>6,
-      "title"=>'ENT',
-      "subtitle"=>"Ear Nose & Throat",
+      "title"=>'Ear, Nose & Throat',
+      "subtitle"=>"ENT",
       "desc"=>'The ears, nose, and throat are located near each other and have separate but related functions. The ears and nose are sensory organs, which are necessary for the senses of hearing, balance, and smell.',
       "image"=>'./assets/img/6_ENT.jpg'
     ],

@@ -35,16 +35,16 @@
             </div>
             <div class="col-lg-2 col-md-6 col-12">
               <div class="footer-area">
-                <h3 class="footer-title">
+                <h3 class="footer-title hidden">
                     Customer ReService 
                 </h3>
                 <div class="footer-area-content">
                   <ul>
-                    <li>About Adobe XD Kit</li>
-                    <li>Work With US</li>
-                    <li>Privacy Policy</li>
-                    <li>Terms & Conditions</li>
-                    <li>Press Enquiries</li>
+                    <li>Dermatology</li>
+                    <li>Urology</li>
+                    <li>Deramtology</li>
+                    <li>Surgery</li>
+                    <li>Orthopedics</li>
                   </ul>
                 </div>
               </div>
@@ -52,7 +52,7 @@
             <div class="col-lg-4 col-md-6 col-12">
               <div class="footer-area">
                 <h3 class="footer-title">
-                  Subscribe to AdobeXD via Email
+                  Subscribe to eHospite via Email
                 </h3>
                 <div class="footer-area-content">
                   <p>
