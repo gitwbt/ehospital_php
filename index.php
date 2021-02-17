@@ -461,7 +461,7 @@
       <div class="row align-items-center">
         <div class="col-lg-8 col-md-12 col-sm-12">
             <div class="section-heading--left fluid">
-                <h2 class="line-clamp-1">Latest Articles And Journals</h2>
+                <h2 class="line-clamp-1">eHospital Newsletter</h2>
                 <p class="line-clamp-2">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
                   doloribus tempore architecto! Similique magnam vero error
