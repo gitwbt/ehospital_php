@@ -52,7 +52,7 @@
           <div class="swiper-slide">
             <section class="hero">
               <div class="hero--image">
-                <img src="./assets/home_banner.jpg" alt="asdd" />
+                <img src="./assets/img/slider_2.png" alt="asdd" />
               </div>
               <div class="container">
                 <!-- <div class="row"> -->
