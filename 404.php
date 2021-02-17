@@ -5,8 +5,10 @@
 
 
 <section class="site-content">
-  <h1>404</h1>
-  <a href="index.php">Go Home</a>
+    <div class="container">
+        <h1>404</h1>
+        <a href="index.php">Go Home</a>
+    </div>
 </section>
 
 <?php include(ROOT_PATH.'/includes/footer.php');?>
