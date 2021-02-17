@@ -52,7 +52,7 @@
             <div class="col-lg-4 col-md-6 col-12">
               <div class="footer-area">
                 <h3 class="footer-title">
-                  Subscribe to eHospite via Email
+                  Subscribe to eHospital via Email
                 </h3>
                 <div class="footer-area-content">
                   <p>
