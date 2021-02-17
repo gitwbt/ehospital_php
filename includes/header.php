@@ -45,8 +45,8 @@
                 <li class="nav-item <?php echo ($page === 'index.php') ?'active':'' ?>">
                   <a class="nav-link" href="index.php">Home </a>
                 </li>
-                <li class="nav-item <?php echo ($page === 'doctor.php') ?'active':'' ?>">
-                  <a class="nav-link" href="doctor.php"
+                <li class="nav-item <?php echo ($page === 'doctor_lists.php') ?'active':'' ?>">
+                  <a class="nav-link" href="doctor_lists.php"
                     >Doctor
                   </a>
                 </li>
@@ -60,8 +60,8 @@
                       >Doctor Profile
                     </a>
                 </li> -->
-                <li class="nav-item <?php echo ($page === 'doctor_lists.php') ?'active':'' ?>">
-                    <a class="nav-link" href="doctor_lists.php"
+                <li class="nav-item <?php echo ($page === 'medical_station.php') ?'active':'' ?>">
+                    <a class="nav-link" href="medical_station.php"
                       >Medical Station
                     </a>
                 </li>

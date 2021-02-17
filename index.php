@@ -301,14 +301,18 @@
   </section>
 
   <!-- Ad Section -->
-  <!-- <section class="ad default-padding">
+  <section class="ad default-padding">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-6">Ad Left</div>
-        <div class="col-lg-6 col-6">Ad Right</div>
+        <div class="col-lg-6 col-6">
+        <img src="./assets/img/ad1.jpg" alt="">
+        </div>
+        <div class="col-lg-6 col-6">
+          
+        </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!-- Partners Lab Section -->
   <section class="feat-partners default-padding greybg">
     <div class="container">
