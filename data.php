@@ -5,63 +5,63 @@
       "title"=>'Skin & Cosmetics',
       "subtitle"=>"Dermatology",
       "desc"=>'asdasd',
-      "image"=>'./assets/img/con1.jpg'
+      "image"=>'./assets/img/1_DERMATOLOGY.jpg'
     ],
     [
       "id"=>2,
       "title"=>'Stone & Prostate',
       "subtitle"=>"Urology",
       "desc"=>'asdasd',
-      "image"=>'./assets/img/con2.jpg'
+      "image"=>'./assets/img/2_UROLOGY.jpg'
     ],
     [
       "id"=>3,
       "title"=>'GASTROENTEROLOGY & LIVER',
       "subtitle"=>"Deramtology",
       "desc"=>'asdasd',
-      "image"=>'./assets/img/con3.jpg'
+      "image"=>'./assets/img/3_GASTROENTEROLOGY.jpg'
     ],
     [
       "id"=>4,
       "title"=>'General & Onco-Surgery',
       "subtitle"=>"Surgery ",
       "desc"=>'asdasd',
-      "image"=>'./assets/img/con4.jpg'
+      "image"=>'./assets/img/4_SURGERY.jpg'
     ],
     [
       "id"=>5,
       "title"=>'Bone & Joints',
       "subtitle"=>"Orthopedics",
       "desc"=>'asdasd',
-      "image"=>'./assets/img/con3.jpg'
+      "image"=>'./assets/img/5_ORTHOPEDICS.jpg'
     ],
     [
       "id"=>6,
       "title"=>'ENT',
       "subtitle"=>"Ear Nose & Throat",
       "desc"=>'asdasd',
-      "image"=>'./assets/img/con3.jpg'
+      "image"=>'./assets/img/6_ENT.jpg'
     ],
     [
       "id"=>7,
       "title"=>'Cardiology',
       "subtitle"=>"",
       "desc"=>'asdasd',
-      "image"=>'./assets/img/con3.jpg'
+      "image"=>'./assets/img/7_CARDIOLOGY.jpg'
     ],
     [
       "id"=>8,
       "title"=>'Oncology',
       "subtitle"=>"",
       "desc"=>'asdasd',
-      "image"=>'./assets/img/con3.jpg'
+      "image"=>'./assets/img/8_ONCOLOGY.jpg'
     ],
     [
       "id"=>9,
       "title"=>'Pediatrics',
       "subtitle"=>"",
       "desc"=>'asdasd',
-      "image"=>'./assets/img/con3.jpg'
+      "image"=>'./assets/img/9_PEDIATRICS.jpg'
     ]
   ];
   $services=[
