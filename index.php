@@ -35,7 +35,7 @@
                 <div class="hero--content-wrapper">
                   <div class="hero--content">
                     <h1>
-                      Re-defining Medical <br />
+                      Re-defining Medical For Git Cpanel <br />
                       Care In Nepal
                     </h1>
                     <div class="hero--search-form">
