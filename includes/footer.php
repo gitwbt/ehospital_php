@@ -74,7 +74,7 @@
                 <div class="footer-area-content">
                   <img src="./assets/pay.jpg" alt="pay" />
                   <a href="https://www.wildboartech.com/" target="_blank" class="site-info">
-                  <span > &copy; WildBoar Technologies </span>
+                  <span > &copy; ©Copyrights. All Right Reserved. </span>
                   </a>
                 </div>
               </div>
