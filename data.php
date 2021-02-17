@@ -74,7 +74,7 @@
     ],
     [
       "id"=>2,
-      "img"=>"./assets/img/services/ser2.jpg",
+      "img"=>"./assets/img/m_s.jpg",
       "title"=>"Medical Station",
       "desc"=>"simply dummy text of the printing and typesetting
       industry. Lorem psum has simply dummy text of the printing and typesetting"
