@@ -2,7 +2,7 @@
 <?php include('./data.php');?>
 <?php 
 $id = $_GET['id'];
-$consultation = $consultations[$id];
+$consultation = $consultations[$id - 1];
 if(!$id){
     header('Location: index.php');
 }
@@ -43,27 +43,32 @@ if(!$id){
         <!-- <div class="row"> -->
         <!-- <div class="col-lg-8 col-12 ml-auto d-flex justify-content-end"> -->
         <div class="hero--content-wrapper">
-            <div class="hero--content">
-            <h1>
-            <?php echo $consultation['title']; ?>
-            </h1>
-            <div class="hero--search-desc">
-                <p class="line-clamp-3">
-                 <?php echo $consultation['desc']; ?>
-                </p>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 ml-auto">
+              <div class="hero--content">
+              <h1 class="mb-0">
+              <?php echo $consultation['title']; ?>
+              </h1>
+              <div class="hero--search-desc">
+                  <p class="line-clamp-3">
+                  <?php echo $consultation['desc']; ?>
+                  </p>
+              </div>
+              </div>
             </div>
-            </div>
+          </div>
+       
         </div>
         <!-- </div> -->
         <!-- </div> -->
         </div>
     </section>
-    <section class="appointment-form mt-4 mb-4">
+    <section class="appointment-form ">
   <div class="container">
 <div class="row">
   <div class="col-md-6">
      <h2 class="text-primary">Patient Information Form</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum reiciendis sint at unde, rerum illum consequatur corrupti est perferendis eius!</p>
+     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum reiciendis sint at unde, rerum illum consequatur corrupti est perferendis eius!</p>
       <div id="message"></div>
       <form method="POST" id="appointmentForm">
           <div class="form-group">
@@ -71,8 +76,8 @@ if(!$id){
             <input type="text" name="full_name" class="form-control" required />
           </div>
           <div class="form-group">
-            <label for="">Email</label>
-            <input type="email" name="email" class="form-control" required />
+            <label for="">Phone Number</label>
+            <input type="phone" name="email" class="form-control" required />
           </div>
           <div class="form-group">
             <label for="">Appointment Date</label>
@@ -85,8 +90,28 @@ if(!$id){
               name="note"
               placeholder="Write note"
               required
-            >
-            </textarea>
+            ></textarea>
+          </div>
+          <div class="form-group">
+          <label for="">Gender</label>
+           <div class="btn-group-radio">
+             <div class="btn-group-radio--item">
+             <input
+                type="radio"
+                class="btn-check"
+                name="options"
+                id="male"
+                autocomplete="off"
+              />
+              <label class="btn btn-secondary" for="male">Male</label>
+             </div>
+             <div class="btn-group-radio--item">
+             <input type="radio" class="btn-check" name="options" id="female" autocomplete="off" />
+              <label class="btn btn-secondary" for="female">Female</label>
+             </div>
+              <!-- <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" />
+              <label class="btn btn-secondary" for="option3">Radio</label> -->
+            </div>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>

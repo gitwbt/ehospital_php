@@ -24,9 +24,9 @@
         <!-- <div class="col-lg-8 col-12 ml-auto d-flex justify-content-end"> -->
         <div class="hero--content-wrapper">
             <div class="hero--content">
-            <h1>
-                Consultation <br />
-                Service For <br />
+            <h1 class="mb-0">
+                Consultation 
+                Service For <br/>
                 Your Health
             </h1>
             <div class="hero--search-desc">

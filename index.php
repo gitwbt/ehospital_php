@@ -34,12 +34,12 @@
                 <!-- <div class="col-lg-8 col-12 ml-auto d-flex justify-content-end"> -->
                 <div class="hero--content-wrapper">
                   <div class="hero--content">
-                    <h1>
+                    <h1 class="mb-1">
                       Re-Defining Medical For  <br />
                       Care In Nepal
                     </h1>
                     <div class="hero--search-form">
-                      <p>What specialist are you looking for?</p>
+                      <p class="mb-4">What specialist are you looking for?</p>
                       <?php include('./includes/hero_search_form.php');  ?>
                     </div>
                   </div>
@@ -59,12 +59,12 @@
                 <!-- <div class="col-lg-8 col-12 ml-auto d-flex justify-content-end"> -->
                 <div class="hero--content-wrapper">
                   <div class="hero--content">
-                    <h1>
+                    <h1 class="mb-1">
                       Re-Defining Medical <br />
                       Care In Nepal
                     </h1>
                     <div class="hero--search-form">
-                      <p>What specialist are you looking for?</p>
+                      <p class="mb-4">What specialist are you looking for?</p>
                       <?php include('./includes/hero_search_form.php');  ?>
                     </div>
                   </div>

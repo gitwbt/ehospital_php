@@ -113,3 +113,14 @@ if (appointmentform) {
       });
   });
 }
+
+const ctsearchform = document.querySelector(".ct-search-form");
+
+if (ctsearchform) {
+  ctsearchform.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const selectinput = document.querySelector("#ct-select");
+    const id = selectinput.value;
+    location.href = `appointment.php?id=${id}`;
+  });
+}
