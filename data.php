@@ -111,48 +111,62 @@
   $doctors =[
     [
       "id"=>1,
-      "img"=>"./assets/img/doctors/D1_RUPESH.jpg",
-      "department"=>"MBBS, MD, Eye Specialist",
-      "mbbs"=>"Teaching Hospital",
-      "speciality"=>"Urologist",
-      "website"=>"www.antonio.com",
-      "name"=>"DR. RUPESH RAJ JOSHI",
+      "img"=>"./assets/img/doctors/D2_PRARTHANA.jpg",
+      "department"=>"EAR NOSE & THROAT",
+      "mbbs"=>"",
+      "speciality"=>"CONSULTANT DERMATOLOGIST",
+      "website"=>"www.drprarthana.com.np",
+      "nmc"=>"12420",
+      "qualification"=>"MBBS, MD (DERMATOLOGY)",
+      "designation"=>"CONSULTANT DERMATOLOGIST"
     ],
     [
       "id"=>2,
-      "img"=>"./assets/img/doctors/D2_PRARTHANA.jpg",
-      "department"=>"MBBS, MD, Eye Specialist",
-      "mbbs"=>"Teaching Hospital",
-      "speciality"=>"Urologist",
-      "website"=>"www.antonio.com",
-      "name"=>" DR. PRARTHANA ADHIKARI"
+      "img"=>"./assets/img/doctors/D3_KIRAN.jpg",
+      "department"=>"UROLOGY",
+      "mbbs"=>"MBBS, MS(UROLOGY), PhD(UROLOGY)",
+      "speciality"=>"CONSULTANT UROLOGIST",
+      "website"=>"www.kiranjangkunwar.com.np",
+      "name"=>" DR. KIRAN JANG KUNWAR",
+      "nmc"=>"5840",
+      "qualification"=>"MBBS, MS(UROLOGY), PhD(UROLOGY)",
+      "designation"=>"CONSULTANT UROLOGIST"
     ],
     [
       "id"=>3,
-      "img"=>"./assets/img/doctors/D3_KIRAN.jpg",
-      "department"=>"MBBS, MD, Eye Specialist",
-      "mbbs"=>"Teaching Hospital",
-      "speciality"=>"Urologist",
-      "website"=>"www.antonio.com",
-      "name"=>" DR. KIRAN JANG KUNWAR"
+      "img"=>"./assets/img/doctors/D4_SANTOSH.jpg",
+      "department"=>"CARDIOLOGY",
+      "mbbs"=>"MBBS, MD (Internal Medicine)",
+      "speciality"=>"CONSULTANT PHYSICIAN & CARDIOLOGIST",
+      "website"=>"www.santosh.com.np",
+      "name"=>"DR. SANTOSH LAL SHRESTHA",
+      "nmc"=>"5633",
+      "qualification"=>"MBBS, MD (Internal Medicine)",
+      "designation"=>"CONSULTANT PHYSICIAN & CARDIOLOGIST"
     ],
     [
       "id"=>4,
-      "img"=>"./assets/img/doctors/D4_SANTOSH.jpg",
-      "department"=>"MBBS, MD, Eye Specialist",
-      "mbbs"=>"Teaching Hospital",
-      "speciality"=>"Urologist",
-      "website"=>"www.antonio.com",
-      "name"=>"DR. VIVEK SHARMA"
+      "img"=>"./assets/img/doctors/D5_VIVEK.jpg",
+      "department"=>"GASTROENTEROLOGY & LIVER",
+      "mbbs"=>"Bsc , MBBS, MD (Internal Medicine)",
+      "speciality"=>"CONSULTANT PHYSICIAN AND GASTROENTEROLOGIST",
+      "website"=>"www.antonio.com.np",
+      "name"=>"DR. VIVEK SHARMA",
+      "nmc"=>"3034",
+      "qualification"=>"Bsc , MBBS, MD (Internal Medicine)",
+      "designation"=>"CONSULTANT PHYSICIAN AND GASTROENTEROLOGIST"
     ],
     [
       "id"=>5,
-      "img"=>"./assets/img/doctors/D5_VIVEK.jpg",
+      "img"=>"./assets/img/doctors/D1_RUPESH.jpg",
       "department"=>"MBBS, MD, Eye Specialist",
-      "mbbs"=>"Teaching Hospital",
-      "speciality"=>"Urologist",
-      "website"=>"www.antonio.com",
-      "name"=>"DR. SHWETA BARAL"
+      "mbbs"=>"MBBS,( CALCUTTA UNIVERSITY), MS (ENT & HNS)( BPKIHS)",
+      "speciality"=>"CONSULTANT ENT SURGEON",
+      "website"=>"www.rupesh.com.np",
+      "name"=>"DR. RUPESH RAJ JOSHI",,
+      "nmc"=>"2720",
+      "qualification"=>"MBBS,( CALCUTTA UNIVERSITY), MS (ENT & HNS)( BPKIHS)",
+      "designation"=>"CONSULTANT ENT SURGEON"
     ]
   ]
 ?>
