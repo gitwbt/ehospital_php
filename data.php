@@ -4,63 +4,63 @@
       "id"=>1,
       "title"=>'Skin & Cosmetics',
       "subtitle"=>"Dermatology",
-      "desc"=>'asdasd',
+      "desc"=>'Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialist doctor who manages diseases related to skin, hair, nails, and some cosmetic problems',
       "image"=>'./assets/img/1_DERMATOLOGY.jpg'
     ],
     [
       "id"=>2,
       "title"=>'Stone & Prostate',
       "subtitle"=>"Urology",
-      "desc"=>'asdasd',
+      "desc"=>'Urology, also known as genitourinary surgery, is the branch of medicine that focuses on surgical and medical diseases of the male and female urinary-tract system and the male reproductive organs.',
       "image"=>'./assets/img/2_UROLOGY.jpg'
     ],
     [
       "id"=>3,
       "title"=>'GASTROENTEROLOGY & LIVER',
       "subtitle"=>"Deramtology",
-      "desc"=>'asdasd',
+      "desc"=>'Gastroenterology is the branch of medicine focused on the digestive system and its disorders. Diseases affecting the gastrointestinal tract, which include the organs from mouth into anus, along the alimentary canal, are the focus of this speciality. Physicians practicing in this field are called gastroenterologists.',
       "image"=>'./assets/img/3_GASTROENTEROLOGY.jpg'
     ],
     [
       "id"=>4,
       "title"=>'General & Onco-Surgery',
       "subtitle"=>"Surgery ",
-      "desc"=>'asdasd',
+      "desc"=>'Surgery is a medical or dental specialty that uses operative manual and instrumental techniques on a person to investigate or treat a pathological condition such as a disease or injury, to help improve bodily function, appearance, or to repair unwanted ruptured areas.',
       "image"=>'./assets/img/4_SURGERY.jpg'
     ],
     [
       "id"=>5,
       "title"=>'Bone & Joints',
       "subtitle"=>"Orthopedics",
-      "desc"=>'asdasd',
+      "desc"=>'Orthopedic surgery or orthopedics, also spelled orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system.',
       "image"=>'./assets/img/5_ORTHOPEDICS.jpg'
     ],
     [
       "id"=>6,
       "title"=>'ENT',
       "subtitle"=>"Ear Nose & Throat",
-      "desc"=>'asdasd',
+      "desc"=>'The ears, nose, and throat are located near each other and have separate but related functions. The ears and nose are sensory organs, which are necessary for the senses of hearing, balance, and smell.',
       "image"=>'./assets/img/6_ENT.jpg'
     ],
     [
       "id"=>7,
       "title"=>'Cardiology',
       "subtitle"=>"",
-      "desc"=>'asdasd',
+      "desc"=>'Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology.',
       "image"=>'./assets/img/7_CARDIOLOGY.jpg'
     ],
     [
       "id"=>8,
       "title"=>'Oncology',
       "subtitle"=>"",
-      "desc"=>'asdasd',
+      "desc"=>'Oncology is a branch of medicine that deals with the prevention, diagnosis, and treatment of cancer. A medical professional who practices oncology is an oncologist. ',
       "image"=>'./assets/img/8_ONCOLOGY.jpg'
     ],
     [
       "id"=>9,
       "title"=>'Pediatrics',
       "subtitle"=>"",
-      "desc"=>'asdasd',
+      "desc"=>'Pediatrics is the branch of medicine that involves the medical care of infants, children, and adolescents. The American Academy of Pediatrics recommends people be under pediatric care through the age of 21. In the United Kingdom, pediatrics covers patients until age 18.',
       "image"=>'./assets/img/9_PEDIATRICS.jpg'
     ]
   ];
