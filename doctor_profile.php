@@ -1,4 +1,12 @@
 <?php include('./config.php');?>
+<?php include('./data.php'); ?>
+<?php 
+    $id = $_GET['id'];
+    $doctor = $doctors[$id - 1];
+    if(!$id){
+        header('Location: index.php');
+    }
+?>
 <?php include(ROOT_PATH . '/includes/header.php'); ?>
 <main class="site-content">
     <!-- Hero Section -->
@@ -17,7 +25,7 @@
                 Anywhere.
             </h1>
             <div class="hero--search-desc">
-                <p>
+                <p class="mb-4">
                 It is a long established fact that a reader will be
                 distracted by the readable content of a page when looking at
                 its layout.
@@ -69,12 +77,12 @@
         <div class="profile-card--content">
             <div class="row">
             <div class="col-lg-4">
-                <img src="./assets/face.jpg" alt="" />
+                <img src="<?php echo $doctor['img'] ?>" alt="" />
             </div>
             <div class="col-lg-8 d-flex flex-column justify-content-center">
                 <div class="profile-card--title">
-                <h2>Roshan Karki</h2>
-                <a href="appointment.php?id=1" class="outline-btn primary with-icon">
+                <h2><?php echo $doctor['name'] ?></h2>
+                <a href="appointment.php?id=<?php echo $id;?>" class="outline-btn primary with-icon">
                     <span>Book Appointment</span>
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -113,15 +121,15 @@
                 <ul>
                     <li>
                     <span>MBBS:</span>
-                    Karolinska Institute of Medical, 2001
+                    <?php echo $doctor['mbbs']; ?>
                     </li>
                     <li>
-                    <span>MBBS:</span>
-                    Karolinska Institute of Medical, 2001
+                    <span>Department:</span>
+                    <?php echo $doctor['department']; ?>
                     </li>
                     <li>
-                    <span>MBBS:</span>
-                    Karolinska Institute of Medical, 2001
+                    <span>Speciality:</span>
+                    <?php echo $doctor['speciality']; ?>
                     </li>
                 </ul>
                 </div>

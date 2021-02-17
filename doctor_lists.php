@@ -91,7 +91,7 @@
                                 />
                             </svg>
                             </a>
-                            <a  href="doctor_profile.php?id=1" class="outline-btn primary">
+                            <a  href="doctor_profile.php?id=<?php  echo $doctor['id'];?>" class="outline-btn primary">
                             View Profile
                             </a>
                         </div>

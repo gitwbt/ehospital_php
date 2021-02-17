@@ -364,10 +364,11 @@ template {
   font-size: 2.44rem;
   color: #0D56BB;
   font-weight: 600;
+  text-align: center;
 }
 .section-heading--left p {
-  text-align: left;
-  margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 .section-heading--left.fluid {
   width: 100%;
@@ -663,6 +664,14 @@ template {
   font-weight: 600;
 }
 
+.vertical-ad {
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  object-position: center;
+}
+
 .service-card {
   display: flex;
   flex-direction: column;
@@ -898,6 +907,7 @@ template {
 
 .article-card {
   display: flex;
+  height: 100%;
   flex-direction: column;
   border-radius: 14px;
   overflow: hidden;
