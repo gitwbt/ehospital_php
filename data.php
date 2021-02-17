@@ -116,6 +116,7 @@
       "mbbs"=>"",
       "speciality"=>"CONSULTANT DERMATOLOGIST",
       "website"=>"www.drprarthana.com.np",
+      "name"=>" DR. PRARTHANA ADHIKARI",
       "nmc"=>"12420",
       "qualification"=>"MBBS, MD (DERMATOLOGY)",
       "designation"=>"CONSULTANT DERMATOLOGIST"
