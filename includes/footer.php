@@ -9,9 +9,9 @@
                 </h3>
                 <div class="footer-area-content">
                   <ul>
-                    <li>+9841510060</li>
-                    <li>mail@ehospital.com.np</li>
-                    <li>Sangla-1, Tarkeshwor Municipality, Kathmandu Nepal</li>
+                    <li>M: +977 9851233477</li>
+                    <li>E: mail@ehospital.com.np</li>
+                    <li>A: Sangla-1, Tarkeshwor Municipality, Kathmandu Nepal</li>
                   </ul>
                 </div>
               </div>
