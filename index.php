@@ -36,8 +36,7 @@
                   <div class="hero--content">
                     <h1>
                       Re-defining Medical <br />
-                      Care / Treatment <br />
-                      In Nepal
+                      Care In Nepal
                     </h1>
                     <div class="hero--search-form">
                       <p>What specialist are you looking for?</p>
@@ -104,8 +103,7 @@
                   <div class="hero--content">
                     <h1>
                       Re-defining Medical <br />
-                      Care / Treatment <br />
-                      In Nepal
+                      Care In Nepal
                     </h1>
                     <div class="hero--search-form">
                       <p>What specialist are you looking for?</p>
