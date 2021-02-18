@@ -23,21 +23,18 @@
       <!-- Header -->
       <header class="site-header">
         <!-- Nav -->
-        <nav class="site-nav navbar navbar-expand-lg">
+        <nav class="site-nav navbar navbar-light navbar-expand-lg">
           <div class="container">
             <a class="navbar-brand site-logo" href="index.php">
               <img src="./assets/logo.png" alt="logo" />
             </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="ham-text">Menu</span>
+            <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <?php $page = basename($_SERVER['PHP_SELF']);?>

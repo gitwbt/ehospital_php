@@ -1363,6 +1363,17 @@ a, a:hover, a:focus {
   .hero--content h1 {
     text-align: center;
   }
+  .hero--search-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero--search-form p {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .hero--search-desc {
