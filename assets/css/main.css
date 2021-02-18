@@ -1238,11 +1238,28 @@ a, a:hover, a:focus {
   font-weight: bold;
   text-transform: uppercase;
 }
+.site-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
 .site-nav .nav-link, .site-nav .dropdown-item {
   font-size: 1rem;
   font-weight: 600;
   color: #0D56BB;
   position: relative;
+}
+.site-nav .nav-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #0D56BB;
+  position: relative;
+  padding-right: 0.875rem;
+  padding-left: 0.875rem;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  margin-left: 1rem;
+  text-transform: capitalize;
 }
 .site-nav li.active .nav-link {
   font-size: 1rem;

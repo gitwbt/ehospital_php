@@ -35,8 +35,7 @@
                 <div class="hero--content-wrapper">
                   <div class="hero--content">
                     <h1 class="mb-1">
-                      Re-Defining Medical For  <br />
-                      Care In Nepal
+                    <?php echo $lang["sliders"][0]['title']; ?>
                     </h1>
                     <div class="hero--search-form">
                       <p class="mb-4">What specialist are you looking for?</p>

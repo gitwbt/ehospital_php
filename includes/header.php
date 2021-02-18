@@ -80,6 +80,11 @@
                       >Contact
                     </a>
                 </li>
+                <li class="nav-item ">
+                    <a class="nav-btn" href="?lang=<?php echo $_SESSION['lang'] == "np"? "en":"np"; ?>"
+                      ><?php echo $_SESSION['lang'] == "np"? "en":"np"; ?>
+                    </a>
+                </li>
                 <!-- <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
