@@ -91,9 +91,9 @@
         </p>
       </div>
       <?php if(!empty($consultations)): ?>
-        <div class="row">
+        <div class="row gx-2">
         <?php foreach($services as $service){?>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-6 col-md-6 col-lg-4">
               <div class="service-card">
                 <div class="service-card--img">
                   <img src="<?php echo $service["img"];?>" alt="ser1" />
@@ -459,7 +459,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-8 col-md-12 col-sm-12">
-            <div class="section-heading--left fluid">
+              <div class="section-heading--left fluid">
                 <h2 class="line-clamp-1">eHospital Newsletter</h2>
                 <p class="line-clamp-2">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
@@ -467,71 +467,71 @@
                   quaerat necessitatibus fugit officia?
                 </p>
               </div>
-            <div class="row">
-            <div class="col-12 col-lg-6 col-md-6">
-              <div class="article-card">
-                <div class="article-card--img">
-                  <img
-                    src="https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    alt=""
-                  />
-                </div>
-                <div class="article-card--content">
-                  <div class="article-card--meta">
-                    <span>17th April 2020</span>
-                    <span>20 min read</span>
+              <div class="row  ">
+                  <div class="col-lg-6 col-md-12 col-12">
+                    <div class="article-card">
+                      <div class="article-card--img">
+                        <img
+                          src="https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                          alt=""
+                        />
+                      </div>
+                      <div class="article-card--content">
+                        <div class="article-card--meta">
+                          <span>17th April 2020</span>
+                          <span>20 min read</span>
+                        </div>
+                        <h3 class="line-clamp-1">How does diabetes make your life?</h3>
+                        <p class="line-clamp-3">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Ipsa distinctio nostrum nemo itaque sint dolore!
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <h3 class="line-clamp-1">How does diabetes make your life?</h3>
-                  <p class="line-clamp-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsa distinctio nostrum nemo itaque sint dolore!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-6 col-md-6 feat-article--left">
-              <div class="article-card column">
-                <div class="article-card--img">
-                  <img
-                    src="https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    alt=""
-                  />
-                </div>
-                <div class="article-card--content">
-                  <div class="article-card--meta">
-                    <span>17th April 2020</span>
-                    <span>20 min read</span>
+                  <div class="col-lg-6  col-md-12 col-12">
+                    <div class="article-card column">
+                      <div class="article-card--img">
+                        <img
+                          src="https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                          alt=""
+                        />
+                      </div>
+                      <div class="article-card--content">
+                        <div class="article-card--meta">
+                          <span>17th April 2020</span>
+                          <span>20 min read</span>
+                        </div>
+                        <h3 class="line-clamp-1">How does diabetes make your life?</h3>
+                        <p class="line-clamp-3">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Ipsa distinctio nostrum nemo itaque sint dolore!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="article-card column">
+                      <div class="article-card--img">
+                        <img
+                          src="https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                          alt=""
+                        />
+                      </div>
+                      <div class="article-card--content">
+                        <div class="article-card--meta">
+                          <span>17th April 2020</span>
+                          <span>20 min read</span>
+                        </div>
+                        <h3 class="line-clamp-1">How does diabetes make your life?</h3>
+                        <p class="line-clamp-3">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Ipsa distinctio nostrum nemo itaque sint dolore!
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <h3 class="line-clamp-1">How does diabetes make your life?</h3>
-                  <p class="line-clamp-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsa distinctio nostrum nemo itaque sint dolore!
-                  </p>
-                </div>
               </div>
-              <div class="article-card column">
-                <div class="article-card--img">
-                  <img
-                    src="https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    alt=""
-                  />
-                </div>
-                <div class="article-card--content">
-                  <div class="article-card--meta">
-                    <span>17th April 2020</span>
-                    <span>20 min read</span>
-                  </div>
-                  <h3 class="line-clamp-1">How does diabetes make your life?</h3>
-                  <p class="line-clamp-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsa distinctio nostrum nemo itaque sint dolore!
-                  </p>
-                </div>
-              </div>
-            </div>
-            </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 ">
           <img class="vertical-ad" src="./assets/img/Ads_1.jpg" alt="ad" >
         </div>
       </div>
