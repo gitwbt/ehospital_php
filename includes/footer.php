@@ -9,9 +9,9 @@
                 </h3>
                 <div class="footer-area-content">
                   <ul>
-                    <li>+9841510060</li>
-                    <li>mail@ehospital.com.np</li>
-                    <li>Sangla-1, Tarkeshwor Municipality, Kathmandu Nepal</li>
+                    <li>M: +977 9851233477</li>
+                    <li>E: mail@ehospital.com.np</li>
+                    <li>A: Sangla-1, Tarkeshwor Municipality, Kathmandu Nepal</li>
                   </ul>
                 </div>
               </div>
@@ -73,7 +73,9 @@
                 <h3 class="footer-title"></h3>
                 <div class="footer-area-content">
                   <img src="./assets/pay.jpg" alt="pay" />
-                  <span> &copy; Copyrights 2021. All Rights Reserved.  </span>
+                  <a href="https://www.wildboartech.com/" target="_blank" class="site-info">
+                  <span > &copy; All Right Reserved. </span>
+                  </a>
                 </div>
               </div>
             </div>
