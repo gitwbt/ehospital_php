@@ -1285,6 +1285,11 @@ a, a:hover, a:focus {
   font-size: 0.875rem;
   outline: none;
 }
+@media (max-width: 768px) {
+  .site-nav .nav-btn {
+    margin-left: 0rem;
+  }
+}
 
 .hero {
   display: block;
