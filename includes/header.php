@@ -79,7 +79,7 @@
                 </li>
                 <li class="nav-item " title="Langague Switcher">
                     <a class="nav-btn" href="?lang=<?php echo $_SESSION['lang'] == "np"? "en":"np"; ?>"
-                      ><?php echo $_SESSION['lang'] == "np"? "en":"np"; ?>
+                      ><?php echo $_SESSION['lang'] == "np"? "english":"nepali"; ?>
                     </a>
                 </li>
                 <!-- <li class="nav-item dropdown">
