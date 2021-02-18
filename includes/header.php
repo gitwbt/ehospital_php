@@ -40,11 +40,11 @@
               <?php $page = basename($_SERVER['PHP_SELF']);?>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item <?php echo ($page === 'index.php') ?'active':'' ?>">
-                  <a class="nav-link" href="index.php">Home </a>
+                  <a class="nav-link" href="index.php"><?php echo $lang['home'] ?> </a>
                 </li>
                 <li class="nav-item <?php echo ($page === 'doctor_lists.php') ?'active':'' ?>">
                   <a class="nav-link" href="doctor_lists.php"
-                    >Doctor
+                    ><?php echo $lang['doctor'] ?>
                   </a>
                 </li>
                 <li class="nav-item <?php echo ($page === 'consultation.php') ?'active':'' ?>">
@@ -59,25 +59,25 @@
                 </li> -->
                 <li class="nav-item <?php echo ($page === 'medical_station.php') ?'active':'' ?>">
                     <a class="nav-link" href="medical_station.php"
-                      >Medical Station
+                      ><?php echo $lang['medical_station'] ?>
                     </a>
                 </li>
                 <li class="nav-item <?php echo ($page === 'mero_health.php') ?'active':'' ?>">
                     <a class="nav-link" href="mero_health.php"
-                      >Mero Health
+                      ><?php echo $lang['mero_health'] ?>
                     </a>
                 </li>
                 <li class="nav-item <?php echo ($page === 'about.php') ?'active':'' ?>">
                     <a class="nav-link" href="about.php"
-                      >About
+                      ><?php echo $lang['about'] ?>
                     </a>
                 </li>
                 <li class="nav-item <?php echo ($page === 'contact.php') ?'active':'' ?>">
                     <a class="nav-link" href="contact.php"
-                      >Contact
+                      ><?php echo $lang['contact'] ?>
                     </a>
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item " title="Langague Switcher">
                     <a class="nav-btn" href="?lang=<?php echo $_SESSION['lang'] == "np"? "en":"np"; ?>"
                       ><?php echo $_SESSION['lang'] == "np"? "en":"np"; ?>
                     </a>

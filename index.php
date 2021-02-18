@@ -38,7 +38,7 @@
                     <?php echo $lang["sliders"][0]['title']; ?>
                     </h1>
                     <div class="hero--search-form">
-                      <p class="mb-4">What specialist are you looking for?</p>
+                      <p class="mb-4"> <?php echo $lang["sliders"][0]['sub']; ?></p>
                       <?php include('./includes/hero_search_form.php');  ?>
                     </div>
                   </div>
@@ -59,11 +59,10 @@
                 <div class="hero--content-wrapper">
                   <div class="hero--content">
                     <h1 class="mb-1">
-                      Re-Defining Medical <br />
-                      Care In Nepal
+                    <?php echo $lang["sliders"][0]['title']; ?>
                     </h1>
                     <div class="hero--search-form">
-                      <p class="mb-4">What specialist are you looking for?</p>
+                      <p class="mb-4"><?php echo $lang["sliders"][0]['sub']; ?></p>
                       <?php include('./includes/hero_search_form.php');  ?>
                     </div>
                   </div>
@@ -91,7 +90,7 @@
         </p>
       </div>
       <?php if(!empty($consultations)): ?>
-        <div class="row gx-2">
+        <div class="row gx-lg-4 gx-2">
         <?php foreach($services as $service){?>
             <div class="col-6 col-md-6 col-lg-4">
               <div class="service-card">
