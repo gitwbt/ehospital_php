@@ -7,11 +7,12 @@
         'about'=>'About',
         'contact'=>"Contact",
         'medical_station'=>"Medical Station",
-        "sliders" =>  array(
+        "sliders" =>  [
             array(
                 "title"=>"Re-Defining Medical Care <br/> In Nepal",
                 "sub"=>"What specialist are you looking for?",
             )
-        )
-    )
+
+        ]
+     );
 ?>
