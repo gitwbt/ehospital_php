@@ -19,7 +19,4 @@ require_once "lang/".$_SESSION['lang'].".php";
     $api_url = "http://127.0.0.1:8000/api";
     define("ROOT_PATH", dirname(__FILE__));
     define("BASE_URL",$base_url)
-
-   
-
 ?>
