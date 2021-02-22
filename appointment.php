@@ -71,19 +71,19 @@ if(!$id){
      <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum reiciendis sint at unde, rerum illum consequatur corrupti est perferendis eius!</p>
       <div id="message"></div>
       <form method="POST" id="appointmentForm">
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="">Full Name</label>
             <input type="text" name="full_name" class="form-control" required />
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="">Phone Number</label>
             <input type="phone" name="email" class="form-control" required />
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="">Appointment Date</label>
             <input type="datetime-local" name="date" class="form-control" required />
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="">Note</label>
             <textarea
               class="form-control"
@@ -92,7 +92,7 @@ if(!$id){
               required
             ></textarea>
           </div>
-          <div class="form-group">
+          <div class="form-group  mb-3">
           <label for="">Gender</label>
            <div class="btn-group-radio">
              <div class="btn-group-radio--item">
