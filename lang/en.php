@@ -6,6 +6,7 @@
         "mero_health"=>"Mero Health",
         'about'=>'About',
         'contact'=>"Contact",
+        "consultation"=>"Consultation",
         'medical_station'=>"Medical Station",
         "sliders" =>  [
             array(

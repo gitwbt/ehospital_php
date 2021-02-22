@@ -45,10 +45,10 @@
     <!-- Consultaions Lists -->
     <section class="consultation-lists default-padding">
         <div class="container">
-        <div class="row">
+        <div class="row gx-lg-4 gx-2">
             <?php if(!empty($consultations)):  ?>
                 <?php foreach($consultations as $consultation): ?>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-6">
                         <div class="consult-card">
                         <div class="consult-card--img">
                             <img src="<?php echo  $consultation['image'] ?>" alt="" />

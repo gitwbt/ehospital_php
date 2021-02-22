@@ -6,6 +6,7 @@
         "mero_health"=>"मेरो स्वास्थ्य",
         'about'=>'बारेमा',
         'contact'=>"सम्पर्क",
+        "consultation"=>"परामर्श",
         'medical_station'=>"चिकित्सा स्टेशन",
         "sliders" =>  [
             array(

@@ -67,7 +67,7 @@
                 </li>
                 <li class="nav-item <?php echo ($page === 'consultation.php') ?'active':'' ?>">
                   <a class="nav-link" href="consultation.php"
-                    >Consultation
+                    ><?php echo $lang['consultation'] ?>
                   </a>
                 </li>
                 <!-- <li class="nav-item  <?php /// echo ($page === 'doctor_profile.php') ?'active':'' ?>">
@@ -97,7 +97,7 @@
                 </li>
                 <li class="nav-item " title="Langague Switcher">
                     <a class="nav-btn" href="?lang=<?php echo $_SESSION['lang'] == "np"? "en":"np"; ?>"
-                      ><?php echo $_SESSION['lang'] == "np"? "english":"nepali"; ?>
+                      ><?php echo $_SESSION['lang'] == "np"? "english":"नेपाली"; ?>
                     </a>
                 </li>
                 <!-- <li class="nav-item dropdown">

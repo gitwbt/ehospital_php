@@ -148,10 +148,10 @@
     <section class="ad default-padding">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-6">
+        <div class="col-lg-6 col-12">
           <img src="./assets/img/ad1.jpg" alt="">
           </div>
-          <div class="col-lg-6 col-6">
+           <div class="col-lg-6 col-12">
           <img src="./assets/img/ad1.jpg" alt="">
           </div>
         </div>
@@ -175,10 +175,10 @@
         <div class="swiper-container" id="consult">
           <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="row">
+            <div class="row gx-lg-4 gx-2">
                 <?php foreach($consultations as $consultation){?>
                   <?php if($consultation['id'] <= 4):?>
-                      <div class="col-lg-6 col-md-6 col-12">
+                      <div class="col-6 col-md-6 col-lg-6">
                         <div class="consult-card">
                             <div class="consult-card--img">
                             <img src="<?php echo $consultation['image']; ?>" alt="" />
@@ -204,11 +204,11 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="row">
+            <div class="row gx-lg-4 gx-2">
                 <?php foreach($consultations as $consultation){?>
                   <?php if($consultation['id'] > 4):?>
                      <?php if($consultation['id']<=8):?>
-                        <div class="col-lg-6 col-md-6 col-12">
+                        <div class="col-6 col-md-6 col-lg-6">
                           <div class="consult-card">
                               <div class="consult-card--img">
                               <img src="<?php echo $consultation['image']; ?>" alt="" />
@@ -235,11 +235,11 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="row">
+            <div class="row gx-lg-4 gx-2">
                 <?php foreach($consultations as $consultation){?>
                   <?php if($consultation['id'] > 8):?>
                     <?php if($consultation['id']<=16):?>
-                      <div class="col-lg-6 col-md-6 col-12">
+                      <div class="col-6 col-md-6 col-lg-6">
                         <div class="consult-card">
                             <div class="consult-card--img">
                             <img src="<?php echo $consultation['image']; ?>" alt="" />
@@ -326,10 +326,10 @@
   <section class="ad default-padding">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-6">
-        <img src="./assets/img/ad1.jpg" alt="">
+        <div class="col-lg-6 col-12">
+        <img src="./assets/img/ad1.jpg" class="mb-1" alt="">
         </div>
-        <div class="col-lg-6 col-6">
+        <div class="col-lg-6 col-12">
         <img src="./assets/img/ad1.jpg" alt="">
         </div>
       </div>

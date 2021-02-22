@@ -1338,6 +1338,7 @@ a, a:hover, a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 150px;
   height: 117px; }
   .partner-item img {
     width: 100%;
@@ -1437,4 +1438,19 @@ a, a:hover, a:focus {
       .feat-services .service-card--content p {
         font-size: 0.75rem; }
       .feat-services .service-card--content a {
+        display: none !important; } }
+
+@media (max-width: 768px) {
+  .feat-consultations--slider .consult-card, .consultation-lists .consult-card {
+    min-height: auto;
+    margin-bottom: 1rem; }
+    .feat-consultations--slider .consult-card--img, .consultation-lists .consult-card--img {
+      height: 120px; }
+    .feat-consultations--slider .consult-card--content, .consultation-lists .consult-card--content {
+      padding: 10px; }
+      .feat-consultations--slider .consult-card--content h3, .consultation-lists .consult-card--content h3 {
+        font-size: 1rem; }
+      .feat-consultations--slider .consult-card--content p, .consultation-lists .consult-card--content p {
+        font-size: 0.75rem; }
+      .feat-consultations--slider .consult-card--content a, .consultation-lists .consult-card--content a {
         display: none !important; } }
