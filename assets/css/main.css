@@ -1322,7 +1322,6 @@ a, a:hover, a:focus {
   display: block; }
   .partners--slider .swiper-wrapper {
     display: flex;
-    align-items: center;
     padding-bottom: 2rem;
     padding-top: 2rem; }
   .partners--slider .swiper-button-next, .partners--slider .swiper-button-prev {
@@ -1379,6 +1378,9 @@ a, a:hover, a:focus {
   border-radius: 19px;
   background: #fff;
   box-shadow: 0px 3px 29px rgba(0, 0, 0, 0.14); }
+  .profile-card--content ul {
+    margin-left: 0rem;
+    padding-left: 0rem; }
 
 .profile-card--title {
   display: flex;
@@ -1394,6 +1396,30 @@ a, a:hover, a:focus {
     .profile-card--meta li span {
       font-weight: 700;
       margin-right: 1rem; }
+
+@media (max-width: 768px) {
+  .profile-card--content {
+    padding: 1rem;
+    border-radius: 19px;
+    background: #fff;
+    box-shadow: 0px 3px 29px rgba(0, 0, 0, 0.14); }
+    .profile-card--content img {
+      width: 100%; }
+    .profile-card--content ul {
+      margin-left: 0rem;
+      padding-left: 0rem; }
+  .profile-card--title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem; }
+    .profile-card--title h2 {
+      margin-top: 1rem;
+      font-weight: 600;
+      color: #0D56BB; }
+    .profile-card--title a {
+      width: 100%; } }
 
 .doctors-lists--fliter-form {
   margin: 1.5rem 0rem; }

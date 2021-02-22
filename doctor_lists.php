@@ -47,7 +47,9 @@
                 <div class="col-lg-6 col-6">
                     <div class="doctor-card">
                         <div class="doctor-card--image">
-                        <img src="<?php echo $doctor['img'];?>" alt="" />
+                        <a  href="doctor_profile.php?id=<?php  echo $doctor['id'];?>" >
+                            <img src="<?php echo $doctor['img'];?>" alt="" />
+                         </a>
                         </div>
                         <div class="doctor-card--content">
                         <div class="doctor-card--title">

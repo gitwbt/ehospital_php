@@ -36,8 +36,6 @@ var swiper = new Swiper(".swiper-container#testi", {
 });
 
 var swiper = new Swiper(".swiper-container#partners", {
-  slidesPerView: 4,
-  spaceBetween: 87,
   pagination: {
     el: ".swiper-pagination",
   },
@@ -47,8 +45,7 @@ var swiper = new Swiper(".swiper-container#partners", {
   },
   breakpoints: {
     768: {
-      slidesPerView: 2,
-      spaceBetween: 10,
+      slidesPerView: 1,
     },
     1024: {
       slidesPerView: 4,
