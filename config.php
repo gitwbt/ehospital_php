@@ -14,6 +14,7 @@ require_once "lang/".$_SESSION['lang'].".php";
 
 ?>
 <?php 
+    // $base_url="http://localhost:3000/";
     $base_url="http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?').'/';
     $api_url = "http://127.0.0.1:8000/api";
     define("ROOT_PATH", dirname(__FILE__));

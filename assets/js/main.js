@@ -1,3 +1,14 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("sw.js")
+    .then((registration) => {
+      console.log("Sw registed success");
+    })
+    .catch((err) => {
+      console.log("Sw regsiter failed");
+    });
+}
+
 var swiper = new Swiper(".swiper-container#hero", {
   slidesPerView: 1,
   spaceBetween: 30,
