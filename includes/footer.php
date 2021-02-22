@@ -35,8 +35,8 @@
           </div>
           <div class="col-lg-2 col-md-6 col-12">
             <div class="footer-area">
-              <h3 class="footer-title hidden">
-                  Customer ReService 
+              <h3 class="footer-title ">
+                 Departments
               </h3>
               <div class="footer-area-content">
                 <ul>
