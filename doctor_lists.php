@@ -32,7 +32,6 @@
             by the readable content of a page when looking at its layout.
             </p>
         </div>
-
         <div class="doctors-lists--fliter-form">
             <form action="">
             <h3>What specialist are you looking for ?</h3>
@@ -43,9 +42,9 @@
             </select>
             </form>
         </div>
-        <div class="row">
+        <div class="row gx-lg-4 gx-2">
             <?php foreach($doctors as $doctor): ?>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-6">
                     <div class="doctor-card">
                         <div class="doctor-card--image">
                         <img src="<?php echo $doctor['img'];?>" alt="" />
@@ -53,7 +52,7 @@
                         <div class="doctor-card--content">
                         <div class="doctor-card--title">
                             <h2><?php echo $doctor['name'];?></h2>
-                            <p><?php echo $doctor['department'];?></p>
+                            <p class="line-clamp-1"><?php echo $doctor['department'];?></p>
                         </div>
                         <div class="doctor-card--desc">
                             <ul>

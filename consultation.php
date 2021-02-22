@@ -51,7 +51,9 @@
                     <div class="col-lg-6 col-6">
                         <div class="consult-card">
                         <div class="consult-card--img">
-                            <img src="<?php echo  $consultation['image'] ?>" alt="" />
+                            <a href="appointment.php?id=<?php echo $consultation['id'] ?>" >
+                              <img src="<?php echo  $consultation['image'] ?>" alt="" />
+                             </a>
                         </div>
                         <div class="consult-card--content">
                             <div>

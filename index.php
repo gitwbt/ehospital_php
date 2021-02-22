@@ -95,7 +95,20 @@
             <div class="col-6 col-md-6 col-lg-4">
               <div class="service-card">
                 <div class="service-card--img">
-                  <img src="<?php echo $service["img"];?>" alt="ser1" />
+                  <a href="
+                  <?php 
+                  $id = $service["id"];
+                  if($service['id'] === 1):
+                    echo "consultation.php";
+                  elseif($service['id'] === 2):
+                    echo "medical_station.php";
+                  else:
+                    echo  "service.php?id=$id";
+                  endif;
+                  ?>
+                  ">
+                    <img src="<?php echo $service["img"];?>" alt="ser1" />
+                  </a>
                 </div>
                 <div class="service-card--content">
                   <h3 class="line-clamp-1"><?php echo $service["title"];?></h3>
@@ -148,8 +161,8 @@
     <section class="ad default-padding">
       <div class="container">
         <div class="row">
-        <div class="col-lg-6 col-12">
-          <img src="./assets/img/ad1.jpg" alt="">
+        <div class="col-lg-6 col-12 ">
+          <img src="./assets/img/ad1.jpg" class='mb-2' alt="">
           </div>
            <div class="col-lg-6 col-12">
           <img src="./assets/img/ad1.jpg" alt="">
@@ -181,7 +194,9 @@
                       <div class="col-6 col-md-6 col-lg-6">
                         <div class="consult-card">
                             <div class="consult-card--img">
-                            <img src="<?php echo $consultation['image']; ?>" alt="" />
+                            <a href="appointment.php?id=<?php echo $consultation['id'] ?>" >
+                              <img src="<?php echo $consultation['image']; ?>" alt="" />
+                            </a>
                             </div>
                             <div class="consult-card--content">
                             <div>
@@ -327,7 +342,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-12">
-        <img src="./assets/img/ad1.jpg" class="mb-1" alt="">
+        <img src="./assets/img/ad1.jpg" class="mb-2" alt="">
         </div>
         <div class="col-lg-6 col-12">
         <img src="./assets/img/ad1.jpg" alt="">

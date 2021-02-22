@@ -871,8 +871,7 @@ template {
     display: flex;
     flex: 1;
     border-radius: 19px;
-    overflow: hidden;
-    flex-basis: 200px; }
+    overflow: hidden; }
     .doctor-card--image img {
       object-fit: cover; }
   .doctor-card--content {
@@ -884,7 +883,6 @@ template {
     color: #0D56BB;
     font-size: 1.5rem; }
   .doctor-card--title p {
-    white-space: nowrap;
     margin: 0rem; }
   .doctor-card--desc {
     margin-top: 1rem;
@@ -1453,4 +1451,36 @@ a, a:hover, a:focus {
       .feat-consultations--slider .consult-card--content p, .consultation-lists .consult-card--content p {
         font-size: 0.75rem; }
       .feat-consultations--slider .consult-card--content a, .consultation-lists .consult-card--content a {
+        display: none !important; } }
+
+@media (max-width: 768px) {
+  .doctors-lists--fliter-form form {
+    width: 100%; }
+    .doctors-lists--fliter-form form select {
+      width: 100%; }
+  .doctors-lists .doctor-card {
+    min-height: auto;
+    padding: 0px; }
+    .doctors-lists .doctor-card--image {
+      margin: 0rem; }
+    .doctors-lists .doctor-card--title h2 {
+      font-size: 1rem;
+      font-weight: 600; }
+    .doctors-lists .doctor-card--desc {
+      display: none; }
+      .doctors-lists .doctor-card--desc ul {
+        margin-left: 0rem;
+        padding-left: 0rem;
+        word-break: break-all; }
+        .doctors-lists .doctor-card--desc ul li {
+          font-size: 0.875rem; }
+          .doctors-lists .doctor-card--desc ul li span {
+            font-size: 0.875rem; }
+    .doctors-lists .doctor-card--content {
+      padding: 10px; }
+      .doctors-lists .doctor-card--content h3 {
+        font-size: 1rem; }
+      .doctors-lists .doctor-card--content p {
+        font-size: 0.75rem; }
+      .doctors-lists .doctor-card--content a {
         display: none !important; } }
