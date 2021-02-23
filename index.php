@@ -340,7 +340,7 @@
   <!-- Ad Section -->
   <section class="ad default-padding">
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col-lg-6 col-12">
         <img src="./assets/img/ad1.jpg" class="mb-2" alt="">
         </div>
@@ -361,7 +361,7 @@
           quaerat necessitatibus fugit officia?
         </p>
       </div>
-      <div class="row">
+      <div class="row gx-lg-4 gx-2">
         <div class="col-lg-4 col-md-4 col-12">
           <div class="partner-card">
             <div class="partner-card--img">
@@ -380,7 +380,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-12">
+        <div class="col-lg-4 col-md-4 col-6">
           <div class="partner-card">
             <div class="partner-card--img">
               <img
@@ -398,7 +398,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-12">
+        <div class="col-lg-4 col-md-4 col-6">
           <div class="partner-card">
             <div class="partner-card--img">
               <img
@@ -482,7 +482,7 @@
                 </p>
               </div>
               <div class="row  ">
-                  <div class="col-lg-6 col-md-12 col-12">
+                  <div class="col-lg-6 col-md-12 col-12 single">
                     <div class="article-card">
                       <div class="article-card--img">
                         <img
