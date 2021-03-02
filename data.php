@@ -111,6 +111,16 @@
   $doctors =[
     [
       "id"=>1,
+      "name"=>"",
+      "nmc"=>"",
+      "qualification"=>"",
+      "department"=>"",
+      "designation"=>"",
+      "abbcv"=>"",
+      "website"=>""
+    ],
+    [
+      "id"=>1,
       "img"=>"./assets/img/doctors/D2_PRARTHANA.jpg",
       "department"=>"EAR NOSE & THROAT",
       "mbbs"=>"",

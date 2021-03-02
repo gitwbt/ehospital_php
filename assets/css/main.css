@@ -1590,7 +1590,7 @@ a:focus {
 .footer-area-content li {
   font-size: 0.875rem;
   font-weight: 600;
-  word-break: break-all;
+  word-break: break-word;
   margin-bottom: 0.5rem;
 }
 .footer-area-content li a {
