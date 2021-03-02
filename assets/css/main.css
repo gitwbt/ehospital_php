@@ -1673,8 +1673,24 @@ a:focus {
   }
 }
 
+.feat-article .section-heading--left {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feat-article .section-heading--left h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.feat-article.section-heading--left span {
+  margin-bottom: 1rem;
+}
+
 .feat-article--logo {
   height: 80px;
+  margin-right: 1rem;
   margin-bottom: 1rem;
 }
 

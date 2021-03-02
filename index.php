@@ -102,8 +102,10 @@
                     echo "consultation.php";
                   elseif($service['id'] === 2):
                     echo "medical_station.php";
+                  elseif($service['id'] === 4):
+                    echo "second_opinion.php";
                   else:
-                    echo  "service.php?id=$id";
+                    echo "service.php?id=$id";
                   endif;
                   ?>
                   ">
@@ -124,7 +126,24 @@
                       Learn More
                     </a>
                   <?php else:?>
-                  <a href="service.php?id=<?php echo $service["id"];?>" class="d-inline-block ml-auto outline-btn ">
+                  <a href="
+                  <?php 
+                  $id = $service["id"];
+                  switch($service['id']){
+                    case $service['id'] === 1:
+                      echo 'consultation.php';
+                      break;
+                    case $service['id'] === 2:
+                      echo 'medical_station.php';
+                      break;
+                    case  $service['id'] === 4:
+                      echo 'second_opinion.php';
+                      break;
+                    default:
+                       echo "service.php?id=$id";
+                  }
+                  ?>
+                  " class="d-inline-block ml-auto outline-btn ">
                     Learn More
                   </a>
                   <?php endif;?>
@@ -477,8 +496,9 @@
       <div class="row align-items-center">
         <div class="col-lg-8 col-md-12 col-sm-12">
               <div class="section-heading--left fluid">
-                <h2 class="line-clamp-1">
+                <h2 >
                   <img class="feat-article--logo" src="./assets/logo.png" alt="logo" />
+                  <span>Newsletter</span>
                 </h2>
                 <p class="line-clamp-2">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
