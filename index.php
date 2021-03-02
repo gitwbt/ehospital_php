@@ -25,7 +25,7 @@
   <div class="swiper-container" id="hero">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <section class="hero">
+            <section class="hero full">
               <div class="hero--image">
                 <img src="./assets/home_banner.jpg" alt="asdd" />
               </div>
@@ -49,7 +49,7 @@
             </section>
           </div>
           <div class="swiper-slide">
-            <section class="hero">
+            <section class="hero full">
               <div class="hero--image">
                 <img src="./assets/img/slider_2.png" alt="asdd" />
               </div>

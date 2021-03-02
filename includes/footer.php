@@ -46,11 +46,11 @@
               </h3>
               <div class="footer-area-content">
                 <ul>
-                  <li>Dermatology</li>
-                  <li>Urology</li>
-                  <li>Deramtology</li>
-                  <li>Surgery</li>
-                  <li>Orthopedics</li>
+                  <li><a href="appointment.php?id=1">Skin & Cosmetics</a></li>
+                  <li><a href="appointment.php?id=2">Stone & Prostate</a></li>
+                  <li><a href="appointment.php?id=7">Cardiology</a></li>
+                  <li><a href="appointment.php?id=8">Oncology</a></li>
+                  <li><a href="appointment.php?id=9">Pediatrics</a></li>
                 </ul>
               </div>
             </div>

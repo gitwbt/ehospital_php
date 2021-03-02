@@ -54,7 +54,7 @@ var swiper = new Swiper(".swiper-container#partners", {
     },
     1024: {
       slidesPerView: 4,
-      spaceBetween:80,
+      spaceBetween:100,
     },
   },
 });

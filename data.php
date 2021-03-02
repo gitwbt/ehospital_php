@@ -16,7 +16,7 @@
     ],
     [
       "id"=>3,
-      "title"=>'GASTROENTEROLOGY & LIVER',
+      "title"=>'Gastroenterology & Liver',
       "subtitle"=>"Deramtology",
       "desc"=>'Gastroenterology is the branch of medicine focused on the digestive system and its disorders. Diseases affecting the gastrointestinal tract, which include the organs from mouth into anus, along the alimentary canal, are the focus of this speciality. Physicians practicing in this field are called gastroenterologists.',
       "image"=>'./assets/img/3_GASTROENTEROLOGY.jpg'
@@ -96,7 +96,7 @@
     [
       "id"=>5,
       "img"=>"./assets/img/services/ser5.jpg",
-      "title"=>"Medical Shop",
+      "title"=>"Medical Knowledge",
       "desc"=>"simply dummy text of the printing and typesetting
       industry. Lorem psum has"
     ],

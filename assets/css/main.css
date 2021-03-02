@@ -689,19 +689,20 @@ template {
 }
 
 .swiper-container#partners {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 80px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .swiper-container#partners .swiper-button-next {
   right: 20px;
 }
 .swiper-container#partners .swiper-button-next,
 .swiper-container#partners .swiper-button-prev {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: #fff;
-  padding: 2rem;
+  padding: 1.2rem;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
 }
 .swiper-container#partners .swiper-button-next::after,
@@ -722,6 +723,8 @@ template {
 
 .swiper-container#consult {
   padding: 80px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .swiper-container#consult .swiper-button-next,
 .swiper-container#consult .swiper-button-prev {
@@ -1420,13 +1423,28 @@ a:focus {
 }
 
 .hero {
-  display: block;
+  display: flex;
+  align-items: center;
   width: 100%;
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
+  overflow: hidden;
   position: relative;
 }
+.hero.full {
+  height: calc(100vh - 70px);
+  min-height: 100%;
+}
 .hero.half {
-  height: calc(60vh - 70px);
+  min-height: calc(50vh - 70px);
+}
+.hero.half.container {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.hero.half.container .row {
+  width: 100%;
+  height: auto;
 }
 .hero--image {
   position: absolute;
