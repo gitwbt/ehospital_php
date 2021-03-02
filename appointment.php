@@ -32,6 +32,7 @@ if(!$id){
 // }
 
 ?>
+<?php $title =  $consultation['title']?>
 <?php include(ROOT_PATH.'/includes/header.php');?>
 <main class="site-content">
       <!-- Hero Section -->

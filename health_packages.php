@@ -12,7 +12,7 @@
             <div class="hero--content-wrapper">
                 <div class="hero--content">
                 <h1 class="mb-1">
-                Second Opinion
+                Health Packages
                 </h1>
                 <div class="hero--search-desc">
                     <p class="mb-4">
@@ -63,10 +63,10 @@
         <div class="container">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">National</a>
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Grand Package</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">International</a>
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Smart Package</a>
                 </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">

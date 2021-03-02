@@ -1,3 +1,4 @@
+<?php $title = 'Doctor' ?>
 <?php include('./config.php');?>
 <?php include('./data.php');?>
 <?php include(ROOT_PATH . '/includes/header.php'); ?>
@@ -59,12 +60,24 @@
                         <div class="doctor-card--desc">
                             <ul>
                             <li>
-                                <span>MBBS:</span>
-                                <?php echo $doctor['mbbs'];?>
+                                <span>NMC No:</span>
+                                <?php echo $doctor['nmc'];?>
                             </li>
                             <li>
-                                <span>Speciality:</span>
-                                <?php echo $doctor['speciality'];?>
+                                <span>Qualification:</span>
+                                <?php echo $doctor['qualification'];?>
+                            </li>
+                            <li>
+                                <span>Department:</span>
+                                <?php echo $doctor['department'];?>
+                            </li>
+                            <li>
+                                <span>Designation:</span>
+                                <?php echo $doctor['deignation'];?>
+                            </li>
+                            <li>
+                                <span>Abbreviated CV:</span>
+                                <?php echo $doctor['abbcv'];?>
                             </li>
                             <li>
                                 <span>Website:</span>

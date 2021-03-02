@@ -1,3 +1,4 @@
+<?php $title = 'Medical Station' ?>
 <?php include('./config.php');?>
 <?php include('./data.php');?>
 

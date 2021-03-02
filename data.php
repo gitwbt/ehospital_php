@@ -4,63 +4,67 @@
       "id"=>1,
       "title"=>'Skin & Cosmetics',
       "subtitle"=>"Dermatology",
-      "desc"=>'Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialist doctor who manages diseases related to skin, hair, nails, and some cosmetic problems',
+      "desc"=>'Dermatologist is a specialist doctor who manages diseases related to skin, hair, nails, and some cosmetic problems.',
       "image"=>'./assets/img/skin.png'
     ],
     [
       "id"=>2,
       "title"=>'Stone & Prostate',
       "subtitle"=>"Urology",
-      "desc"=>'Urology, also known as genitourinary surgery, is the branch of medicine that focuses on surgical and medical diseases of the male and female urinary-tract system and the male reproductive organs.',
+      "desc"=>'Urology, also known as Genitourinary (KIDNEY, URETER, BLADDER, PROSTATE, URETHRA etc) surgery focuses on Surgical & Medical diseases of the Male and Female urinary-tract system.',
       "image"=>'./assets/img/2_UROLOGY.jpg'
     ],
     [
       "id"=>3,
       "title"=>'Gastroenterology & Liver',
       "subtitle"=>"Deramtology",
-      "desc"=>'Gastroenterology is the branch of medicine focused on the digestive system and its disorders. Diseases affecting the gastrointestinal tract, which include the organs from mouth into anus, along the alimentary canal, are the focus of this speciality. Physicians practicing in this field are called gastroenterologists.',
+      "desc"=>'Gastroenterology is the branch of medicine focused on the Digestive system and its disorders. Diseases affecting the Gastrointestinal tract, which include the organs from mouth into anus, along the alimentary canal, are the focus of this speciality. 
+      Physicians practicing in this field are called Gastroenterologists.',
       "image"=>'./assets/img/3_GASTROENTEROLOGY.jpg'
     ],
     [
       "id"=>4,
       "title"=>'General & Onco-Surgery',
       "subtitle"=>"Surgery ",
-      "desc"=>'Surgery is a medical or dental specialty that uses operative manual and instrumental techniques on a person to investigate or treat a pathological condition such as a disease or injury, to help improve bodily function, appearance, or to repair unwanted ruptured areas.',
+      "desc"=>'Surgery deals with Diagnosis & Treatment of Disease, Injury or Deformity by the means of Manual or Operative procedures. Surgery remains the best chance of cure for Solid Organ Cancer. Surgical Oncology is a subspecialty that deals with surgery for cancers of various organs. This also involves surgery of Alimentary tract, Liver, Bile duct & Pancreas. This also involves overall management of cancer and not only includes surgery.',
       "image"=>'./assets/img/4_SURGERY.jpg'
     ],
     [
       "id"=>5,
       "title"=>'Bone & Joints',
       "subtitle"=>"Orthopedics",
-      "desc"=>'Orthopedic surgery or orthopedics, also spelled orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system.',
+      "desc"=>'Orthopedic surgery or Orthopedics is concerned with conditions involving the injuries & treatment of musculoskeletal systems and associated Muscles, Joints & LIgaments.  
+      Orthopedic Surgeons use both Surgical and Non-Surgical means to treat Musculoskeletal Trauma, Spine Disease, Sports Injuries, Degenerative Diseases, Tumors, Infections and Congenital disorders.',
       "image"=>'./assets/img/5_ORTHOPEDICS.jpg'
     ],
     [
       "id"=>6,
       "title"=>'Ear, Nose & Throat',
       "subtitle"=>"ENT",
-      "desc"=>'The ears, nose, and throat are located near each other and have separate but related functions. The ears and nose are sensory organs, which are necessary for the senses of hearing, balance, and smell.',
+      "desc"=>'The ENT Department deals with diseases of the Ears, Nose, and Throat. They are located near each other and have separate but related functions.',
       "image"=>'./assets/img/6_ENT.jpg'
     ],
     [
       "id"=>7,
       "title"=>'Cardiology',
       "subtitle"=>"",
-      "desc"=>'Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology.',
+      "desc"=>'Cardiology deals with the disorders of the Heart(Cardiovascular System). The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology.',
       "image"=>'./assets/img/7_CARDIOLOGY.jpg'
     ],
     [
       "id"=>8,
       "title"=>'Oncology',
       "subtitle"=>"",
-      "desc"=>'Oncology is a branch of medicine that deals with the prevention, diagnosis, and treatment of cancer. A medical professional who practices oncology is an oncologist. ',
+      "desc"=>'Oncology deals with the Prevention, Diagnosis, and Treatment of Cancer. 
+      A medical professional who practices Oncology is an Oncologist. ',
       "image"=>'./assets/img/8_ONCOLOGY.jpg'
     ],
     [
       "id"=>9,
       "title"=>'Pediatrics',
       "subtitle"=>"",
-      "desc"=>'Pediatrics is the branch of medicine that involves the medical care of infants, children, and adolescents. The American Academy of Pediatrics recommends people be under pediatric care through the age of 21. In the United Kingdom, pediatrics covers patients until age 18.',
+      "desc"=>'Pediatrics involves the Medical care of Infants, Children and Adolescents. 
+      Pediatrics recommends people be under pediatric care through the age of 16.',
       "image"=>'./assets/img/9_PEDIATRICS.jpg'
     ]
   ];
@@ -178,6 +182,61 @@
       "designation"=>"CONSULTANT ENT SURGEON",
       "nmc"=>"",
       "abbcv"=>"",
+    ],
+    [
+      "id"=>6,
+      "name"=>"DR. DEEP LAMICHHANE",
+      "nmc"=>"5839",
+      "qualification"=>"MBBS, MS (General Surgery). Fellowship gastroenterology and Hepatology",
+      "img"=>"./assets/img/doctors/D1_RUPESH.jpg",
+      "department"=>"SURGERY & GI and ONCOSURGERY",
+      "designation"=>"CONSULTANT PHYSICIAN AND GASTROENTEROLOGIST
+      Therapeutic Endoscopist and Hepatologist .",
+      "abbcv"=>"",
+      "website"=>"www.rupesh.com.np",
+      "mbbs"=>"MBBS,( CALCUTTA UNIVERSITY), MS (ENT & HNS)( BPKIHS)",
+      "speciality"=>"CONSULTANT ENT SURGEON",
+    ],
+    [
+      "id"=>7,
+      "name"=>"DR. SHWETA BARAL",
+      "nmc"=>"",
+      "qualification"=>"MBBS, MD (Radiation Oncology). 
+      Fellowship In Radiation Oncology (Kolkata, India)",
+      "img"=>"./assets/img/doctors/D1_RUPESH.jpg",
+      "department"=>"ONCOLOGY",
+      "designation"=>"CONSULTANT ONCOLOGIST AND RADIATION ONCOLOGIST",
+      "abbcv"=>"",
+      "website"=>"www.rupesh.com.np",
+      "mbbs"=>"MBBS,( CALCUTTA UNIVERSITY), MS (ENT & HNS)( BPKIHS)",
+      "speciality"=>"CONSULTANT ENT SURGEON",
+    ],
+    [
+      "id"=>8,
+      "name"=>" DR. BHISHMA POKHREL",
+      "nmc"=>"",
+      "qualification"=>"MBBS, MD (Pediatrics).",
+      "img"=>"./assets/img/doctors/D1_RUPESH.jpg",
+      "department"=>"PEDIATRICS",
+      "designation"=>"CONSULTANT PEDIATRICIAN",
+      "abbcv"=>"",
+      "website"=>"www.rupesh.com.np",
+      "mbbs"=>"MBBS,( CALCUTTA UNIVERSITY), MS (ENT & HNS)( BPKIHS)",
+      "speciality"=>"CONSULTANT ENT SURGEON",
+    ],
+    [
+      "id"=>9,
+      "name"=>"DR. SUMIT RAJ ADHIKARI",
+      "nmc"=>"",
+      "qualification"=>" MBBS, MS (Orthopedics). 
+      Fellowship in Arthroscopic Surgery(Kerala,India)",
+      "img"=>"./assets/img/doctors/D1_RUPESH.jpg",
+      "department"=>"ORTHOPEDICS",
+      "designation"=>"CONSULTANT ORTHOPAEDIC SURGEON",
+      "abbcv"=>"",
+      "website"=>"www.rupesh.com.np",
+      "mbbs"=>"MBBS,( CALCUTTA UNIVERSITY), MS (ENT & HNS)( BPKIHS)",
+      "speciality"=>"CONSULTANT ENT SURGEON",
     ]
   ]
 ?>

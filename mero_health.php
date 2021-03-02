@@ -1,3 +1,4 @@
+<?php $title = 'Mero Health' ?>
 <?php include('./config.php');?>
 <?php include('./data.php');?>
 

@@ -1,3 +1,4 @@
+<?php $title = 'Consultation' ?>
 <?php include('./config.php');?>
 <?php include('./data.php');?>
 <?php

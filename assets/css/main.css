@@ -855,7 +855,6 @@ template {
   font-weight: 600;
   color: #0d56bb;
   text-transform: capitalize;
-  white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -1531,7 +1530,7 @@ a:focus {
     object-fit: cover;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 664px) {
   .hero {
     height: max-content;
   }
@@ -1543,6 +1542,8 @@ a:focus {
     opacity: 0.3;
   }
   .hero--content h1 {
+    display: block;
+    width: 100%;
     text-align: center;
   }
   .hero--search-form {
@@ -1550,6 +1551,7 @@ a:focus {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
   }
   .hero--search-form p {
     display: block;
@@ -1609,7 +1611,7 @@ a:focus {
   height: 100%;
   color: #fff;
 }
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .hero--search-form form {
     display: flex;
     align-items: center;

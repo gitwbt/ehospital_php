@@ -1,3 +1,4 @@
+<?php $title = 'Contact' ?>
 <?php include('./config.php');?>
 <?php include('./data.php');?>
 

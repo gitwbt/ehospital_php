@@ -104,6 +104,8 @@
                     echo "medical_station.php";
                   elseif($service['id'] === 4):
                     echo "second_opinion.php";
+                  elseif($service['id'] === 6):
+                    echo "health_packages.php";
                   else:
                     echo "service.php?id=$id";
                   endif;
@@ -138,6 +140,9 @@
                       break;
                     case  $service['id'] === 4:
                       echo 'second_opinion.php';
+                      break;
+                    case  $service['id'] === 6:
+                      echo 'health_packages.php';
                       break;
                     default:
                        echo "service.php?id=$id";

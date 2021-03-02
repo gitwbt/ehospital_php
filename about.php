@@ -1,3 +1,4 @@
+<?php $title = 'About' ?>
 <?php include('./config.php');?>
 <?php include(ROOT_PATH . '/includes/header.php'); ?>
 <main class="site-content">

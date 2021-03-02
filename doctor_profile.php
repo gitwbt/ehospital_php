@@ -7,6 +7,7 @@
         header('Location: index.php');
     }
 ?>
+<?php $title = $doctor['name']?>
 <?php include(ROOT_PATH . '/includes/header.php'); ?>
 <main class="site-content">
     <!-- Hero Section -->
