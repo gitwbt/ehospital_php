@@ -1481,6 +1481,10 @@ a:focus {
   .hero {
     height: 100%;
   }
+  .hero.half {
+    height: max-content;
+    padding-bottom: 10px;
+  }
   .hero--content {
     min-height: calc(60vh - 80px);
     height: 100%;
@@ -1495,6 +1499,10 @@ a:focus {
 @media (max-width: 768px) {
   .hero {
     height: max-content;
+  }
+  .hero.half {
+    height: max-content;
+    padding-bottom: 10px;
   }
   .hero--image {
     opacity: 0.3;
