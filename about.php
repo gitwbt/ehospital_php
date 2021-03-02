@@ -2,7 +2,7 @@
 <?php include(ROOT_PATH . '/includes/header.php'); ?>
 <main class="site-content">
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero half">
         <div class="hero--image">
         <img src="./assets/doctor-profile-banner.jpg" alt="asdd" />
         </div>

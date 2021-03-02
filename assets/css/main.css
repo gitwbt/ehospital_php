@@ -1379,6 +1379,9 @@ a:focus {
   height: calc(100vh - 70px);
   position: relative;
 }
+.hero.half {
+  height: calc(60vh - 70px);
+}
 .hero--image {
   position: absolute;
   width: 100%;

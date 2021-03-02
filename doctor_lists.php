@@ -2,7 +2,7 @@
 <?php include('./data.php');?>
 <?php include(ROOT_PATH . '/includes/header.php'); ?>
 <main class="site-content">
-    <section class="hero">
+    <section class="hero half">
         <div class="hero--image">
         <img src="./assets/consult-banner.jpg" alt="asdd" />
         </div>
@@ -12,9 +12,9 @@
         <div class="hero--content-wrapper">
             <div class="hero--content">
             <h1>
-                The Best <br />
-                Doctors And <br />
-                Specialist At <br />
+                The Best
+                Doctors  <br />
+                And Specialist At <br />
                 Your Service.
             </h1>
             </div>
