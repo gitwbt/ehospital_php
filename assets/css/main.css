@@ -821,6 +821,7 @@ template {
   border-radius: 14px;
   min-width: 250px;
   max-width: 250px;
+  min-height: 290px;
   overflow: hidden;
 }
 .consult-card--img img {
@@ -927,6 +928,11 @@ template {
     position: relative;
     margin: 0 auto;
     margin-top: 1rem;
+  }
+}
+@media (max-width: 1040px) {
+  .consult-card--img {
+    min-height: auto;
   }
 }
 
