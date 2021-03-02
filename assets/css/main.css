@@ -339,7 +339,7 @@ template {
 }
 
 .greybg {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .section-heading {
@@ -351,7 +351,7 @@ template {
 }
 .section-heading h2 {
   font-size: 2.44rem;
-  color: #0D56BB;
+  color: #0d56bb;
   font-weight: 600;
 }
 .section-heading p {
@@ -362,7 +362,7 @@ template {
 }
 .section-heading--left h2 {
   font-size: 2.44rem;
-  color: #0D56BB;
+  color: #0d56bb;
   font-weight: 600;
   text-align: center;
 }
@@ -380,7 +380,7 @@ template {
   }
   .section-heading h2 {
     font-size: 1.875rem;
-    color: #0D56BB;
+    color: #0d56bb;
     font-weight: 600;
   }
 }
@@ -391,7 +391,7 @@ template {
   }
   .section-heading h2 {
     font-size: 1.75rem;
-    color: #0D56BB;
+    color: #0d56bb;
     font-weight: 600;
   }
   .section-heading p {
@@ -662,8 +662,8 @@ template {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .btn-group-radio input:checked ~ label {
-  background-color: #0D56BB;
-  border-color: #0D56BB;
+  background-color: #0d56bb;
+  border-color: #0d56bb;
   color: #fff;
 }
 
@@ -767,12 +767,12 @@ template {
   margin-bottom: 2rem;
 }
 .service-card:hover {
-  border: 1px solid #0D56BB;
+  border: 1px solid #0d56bb;
   cursor: pointer;
 }
 .service-card:hover .outline-btn {
-  border-color: #0D56BB;
-  background-color: #0D56BB;
+  border-color: #0d56bb;
+  background-color: #0d56bb;
   color: #fff;
 }
 .service-card--img {
@@ -789,7 +789,7 @@ template {
 .service-card--content h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #0D56BB;
+  color: #0d56bb;
   text-transform: capitalize;
 }
 .service-card--content p {
@@ -808,12 +808,12 @@ template {
   margin-bottom: 2rem;
 }
 .consult-card:hover {
-  border: 1px solid #0D56BB;
+  border: 1px solid #0d56bb;
   cursor: pointer;
 }
 .consult-card:hover .outline-btn {
-  border-color: #0D56BB;
-  background-color: #0D56BB;
+  border-color: #0d56bb;
+  background-color: #0d56bb;
   color: #fff;
 }
 .consult-card--img {
@@ -821,7 +821,6 @@ template {
   border-radius: 14px;
   min-width: 250px;
   max-width: 250px;
-  min-height: 290px;
   overflow: hidden;
 }
 .consult-card--img img {
@@ -853,7 +852,7 @@ template {
 .consult-card--content h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #0D56BB;
+  color: #0d56bb;
   text-transform: capitalize;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -876,7 +875,7 @@ template {
 .consult-card--content svg {
   height: 13px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .consult-card {
     flex-direction: column;
   }
@@ -885,6 +884,7 @@ template {
     border-radius: 14px;
     width: 100%;
     min-width: 100%;
+    max-width: 100%;
     max-height: 250px;
     overflow: hidden;
   }
@@ -956,7 +956,7 @@ template {
 }
 .testi--card-content h3 {
   font-size: 1.2rem;
-  color: #0D56BB;
+  color: #0d56bb;
   font-weight: 600;
 }
 .testi--card-content p {
@@ -979,7 +979,7 @@ template {
   }
   .testi--card-content h3 {
     font-size: 1rem;
-    color: #0D56BB;
+    color: #0d56bb;
     font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
@@ -1011,7 +1011,7 @@ template {
 }
 .article-card--meta {
   font-size: 0.875rem;
-  color: #0D56BB;
+  color: #0d56bb;
 }
 .article-card--meta span {
   margin-right: 1rem;
@@ -1025,7 +1025,7 @@ template {
   right: -0.5rem;
   width: 1.5px;
   height: 10px;
-  background-color: #0D56BB;
+  background-color: #0d56bb;
 }
 .article-card--content {
   padding: 30px 20px;
@@ -1123,7 +1123,7 @@ template {
 }
 .partner-card--content h2 {
   font-size: 1.2rem;
-  color: #0D56BB;
+  color: #0d56bb;
   font-weight: 600;
 }
 .partner-card--content p {
@@ -1142,7 +1142,7 @@ template {
   }
   .partner-card--content h2 {
     font-size: 1rem;
-    color: #0D56BB;
+    color: #0d56bb;
     font-weight: 600;
   }
   .partner-card--content p {
@@ -1181,7 +1181,7 @@ template {
   padding: 0rem 20px;
 }
 .doctor-card--title h2 {
-  color: #0D56BB;
+  color: #0d56bb;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -1232,7 +1232,7 @@ template {
   border: none;
   outline: none;
   margin-right: 1rem;
-  color: #0D56BB;
+  color: #0d56bb;
 }
 .link-btn span {
   margin-right: 1rem;
@@ -1242,7 +1242,7 @@ template {
   height: 16px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .row .single {
     margin-bottom: 1rem;
   }
@@ -1252,28 +1252,28 @@ template {
   display: flex;
   border: 1px solid;
   border-radius: 14px;
-  border-color: #83878D;
+  border-color: #83878d;
   outline: none;
   padding: 0.875rem 1.875rem;
   font-size: 0.875rem;
   background: transparent;
   text-transform: capitalize;
-  color: #83878D;
+  color: #83878d;
   transition: all 0.5s;
 }
 .outline-btn.pos-left {
   margin-left: auto;
 }
 .outline-btn:hover {
-  border-color: #0D56BB;
-  background-color: #0D56BB;
+  border-color: #0d56bb;
+  background-color: #0d56bb;
   color: #fff;
   outline: none;
   cursor: pointer;
 }
 .outline-btn.primary {
-  border-color: #0D56BB;
-  background-color: #0D56BB;
+  border-color: #0d56bb;
+  background-color: #0d56bb;
   color: #fff;
 }
 .outline-btn.with-icon {
@@ -1292,8 +1292,8 @@ template {
   margin-right: 0rem;
 }
 .outline-btn.btn-primary {
-  border-color: #0D56BB;
-  color: #0D56BB;
+  border-color: #0d56bb;
+  color: #0d56bb;
 }
 @media (max-width: 425px) {
   .outline-btn {
@@ -1316,7 +1316,7 @@ template {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #83878D;
+  color: #83878d;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -1393,14 +1393,14 @@ a:focus {
 .site-nav .dropdown-item {
   font-size: 1rem;
   font-weight: 600;
-  color: #0D56BB;
+  color: #0d56bb;
   position: relative;
 }
 .site-nav .nav-btn {
   font-size: 1rem;
   font-weight: 600;
   color: #fff;
-  background-color: #0D56BB;
+  background-color: #0d56bb;
   position: relative;
   padding-right: 0.875rem;
   padding-left: 0.875rem;
@@ -1411,7 +1411,7 @@ a:focus {
 }
 .site-nav li.active .nav-link {
   font-size: 1rem;
-  color: #0D56BB;
+  color: #0d56bb;
   position: relative;
 }
 .site-nav li.active .nav-link::after {
@@ -1421,7 +1421,7 @@ a:focus {
   bottom: 0px;
   width: 40px;
   height: 5px;
-  background-color: #0D56BB;
+  background-color: #0d56bb;
 }
 .site-nav .ham-text {
   font-size: 0.875rem;
@@ -1482,7 +1482,7 @@ a:focus {
 }
 .hero--content h1 {
   font-size: 4rem;
-  color: #0D56BB;
+  color: #0d56bb;
   font-style: italic;
   font-weight: bold;
   text-align: right;
@@ -1585,12 +1585,12 @@ a:focus {
   outline: none;
   border-radius: 18px;
   padding: 0.875rem 1.875rem;
-  border: 1px solid #0D56BB;
+  border: 1px solid #0d56bb;
   width: 100%;
   min-width: 240px;
   margin-right: -2rem;
   font-size: 1rem;
-  color: #83878D;
+  color: #83878d;
   font-weight: 600;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1702,7 +1702,7 @@ a:focus {
 }
 
 .site-footer {
-  background-color: #0D56BB;
+  background-color: #0d56bb;
   color: #fff;
   min-height: 350px;
   padding: 70px 0px;
@@ -1787,7 +1787,7 @@ a:focus {
   padding: 15px 31px;
   background: #fff;
   border-radius: 5px;
-  color: #0D56BB;
+  color: #0d56bb;
   border: 1px solid #7fc4fd;
   font-weight: 600;
 }
@@ -1907,7 +1907,7 @@ a:focus {
   justify-content: space-between;
 }
 .profile-card--title h2 {
-  color: #0D56BB;
+  color: #0d56bb;
 }
 .profile-card--meta {
   list-style: none;
@@ -1943,7 +1943,7 @@ a:focus {
   .profile-card--title h2 {
     margin-top: 1rem;
     font-weight: 600;
-    color: #0D56BB;
+    color: #0d56bb;
   }
   .profile-card--title a {
     width: 100%;
@@ -1961,7 +1961,7 @@ a:focus {
   justify-content: space-between;
 }
 .doctors-lists--fliter-form form h3 {
-  color: #0D56BB;
+  color: #0d56bb;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -1971,7 +1971,7 @@ a:focus {
   border: 1px solid #ddd;
   border-radius: 19px;
   color: #fff;
-  background: #0D56BB;
+  background: #0d56bb;
 }
 @media (max-width: 768px) {
   .doctors-lists--fliter-form {
