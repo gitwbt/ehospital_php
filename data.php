@@ -111,16 +111,6 @@
   $doctors =[
     [
       "id"=>1,
-      "name"=>"",
-      "nmc"=>"",
-      "qualification"=>"",
-      "department"=>"",
-      "designation"=>"",
-      "abbcv"=>"",
-      "website"=>""
-    ],
-    [
-      "id"=>1,
       "img"=>"./assets/img/doctors/D2_PRARTHANA.jpg",
       "department"=>"EAR NOSE & THROAT",
       "mbbs"=>"",
@@ -129,7 +119,9 @@
       "name"=>" DR. PRARTHANA ADHIKARI",
       "nmc"=>"12420",
       "qualification"=>"MBBS, MD (DERMATOLOGY)",
-      "designation"=>"CONSULTANT DERMATOLOGIST"
+      "designation"=>"CONSULTANT DERMATOLOGIST",
+      "nmc"=>"",
+      "abbcv"=>"",
     ],
     [
       "id"=>2,
@@ -141,7 +133,9 @@
       "name"=>" DR. KIRAN JANG KUNWAR",
       "nmc"=>"5840",
       "qualification"=>"MBBS, MS(UROLOGY), PhD(UROLOGY)",
-      "designation"=>"CONSULTANT UROLOGIST"
+      "designation"=>"CONSULTANT UROLOGIST",
+      "nmc"=>"",
+      "abbcv"=>"",
     ],
     [
       "id"=>3,
@@ -153,7 +147,9 @@
       "name"=>"DR. SANTOSH LAL SHRESTHA",
       "nmc"=>"5633",
       "qualification"=>"MBBS, MD (Internal Medicine)",
-      "designation"=>"CONSULTANT PHYSICIAN & CARDIOLOGIST"
+      "designation"=>"CONSULTANT PHYSICIAN & CARDIOLOGIST",
+      "nmc"=>"",
+      "abbcv"=>"",
     ],
     [
       "id"=>4,
@@ -165,7 +161,9 @@
       "name"=>"DR. VIVEK SHARMA",
       "nmc"=>"3034",
       "qualification"=>"Bsc , MBBS, MD (Internal Medicine)",
-      "designation"=>"CONSULTANT PHYSICIAN AND GASTROENTEROLOGIST"
+      "designation"=>"CONSULTANT PHYSICIAN AND GASTROENTEROLOGIST",
+      "nmc"=>"",
+      "abbcv"=>"",
     ],
     [
       "id"=>5,
@@ -177,7 +175,9 @@
       "name"=>"DR. RUPESH RAJ JOSHI",
       "nmc"=>"2720",
       "qualification"=>"MBBS,( CALCUTTA UNIVERSITY), MS (ENT & HNS)( BPKIHS)",
-      "designation"=>"CONSULTANT ENT SURGEON"
+      "designation"=>"CONSULTANT ENT SURGEON",
+      "nmc"=>"",
+      "abbcv"=>"",
     ]
   ]
 ?>
