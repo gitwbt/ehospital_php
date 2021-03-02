@@ -1473,6 +1473,9 @@ a:focus {
   }
 }
 @media (max-width: 768px) {
+  .hero {
+    height: max-content;
+  }
   .hero--image {
     opacity: 0.3;
   }
