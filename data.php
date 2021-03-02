@@ -5,7 +5,7 @@
       "title"=>'Skin & Cosmetics',
       "subtitle"=>"Dermatology",
       "desc"=>'Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialist doctor who manages diseases related to skin, hair, nails, and some cosmetic problems',
-      "image"=>'./assets/img/1_DERMATOLOGY.jpg'
+      "image"=>'./assets/img/skin.png'
     ],
     [
       "id"=>2,

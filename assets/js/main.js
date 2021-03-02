@@ -23,7 +23,7 @@ var swiper = new Swiper(".swiper-container#hero", {
 
 var swiper = new Swiper(".swiper-container#consult", {
   slidesPerView: 1,
-  spaceBetween: 30,
+  spaceBetween: 100,
   pagination: {
     el: ".swiper-pagination",
   },
@@ -133,3 +133,20 @@ if (ctsearchform) {
     location.href = `appointment.php?id=${id}`;
   });
 }
+
+// Scroll Up Navbar 
+const siteNav = document.querySelector('.site-nav');
+let prevscroll =0;
+document.addEventListener('scroll',function(){
+  let scorll = window.pageYOffset || document.documentElement.scrollTop;
+
+  if(scorll>prevscroll){
+    siteNav.classList.remove('fixed-nav');
+    document.body.style.paddingTop =  0 +  'px';
+  }else{
+    siteNav.classList.add('fixed-nav');
+    document.body.style.paddingTop =  siteNav.offsetHeight +  'px';
+  }
+  prevscroll = scorll;
+})
+

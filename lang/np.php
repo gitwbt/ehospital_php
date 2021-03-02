@@ -7,7 +7,7 @@
         'about'=>'बारेमा',
         'contact'=>"सम्पर्क",
         "consultation"=>"परामर्श",
-        'medical_station'=>"चिकित्सा स्टेशन",
+        'medical_station'=>"मेडिकल स्टेशन",
         "sliders" =>  [
             array(
                 "title"=>"नेपालमा मेडिकल केयरलाई पुनः <br/> परिभाषित गर्दै",

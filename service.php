@@ -9,7 +9,7 @@ if(!$id){
 ?>
 <?php include(ROOT_PATH.'/includes/header.php');?>
 
-<section class="hero">
+<section class="hero half">
         <div class="hero--image">
         <img src="./assets/doctor-profile-banner.jpg" alt="asdd" />
         </div>

@@ -357,7 +357,7 @@
   <section class="feat-partners default-padding greybg">
     <div class="container">
       <div class="section-heading">
-        <h2>Partner Labs</h2>
+        <h2>Medical Partner</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
           doloribus tempore architecto! Similique magnam vero error
