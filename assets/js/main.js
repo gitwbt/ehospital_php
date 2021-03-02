@@ -46,10 +46,11 @@ var swiper = new Swiper(".swiper-container#partners", {
   breakpoints: {
     768: {
       slidesPerView: 1,
+      spaceBetween:100,
     },
     1024: {
       slidesPerView: 4,
-      spaceBetween: 80,
+      spaceBetween:80,
     },
   },
 });
